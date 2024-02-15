@@ -60,5 +60,5 @@ export interface PersonaData {
   //mementos location data
   area?: string; //path name
   floor?: string; //path level
-  img?: string;
+  img: string;
 }

@@ -1,49 +1,15 @@
 ---
 import type { Personas } from '@models/persona.model';
-import Layout from '../layouts/Layout.astro';
 import { PERSONAS_ROYAL_DATA } from '@data/personas.data';
+import Layout from '@layouts/Layout.astro';
+import { PersonaList } from '../components/PersonaList/PersonaList';
 
 const data: Personas = PERSONAS_ROYAL_DATA;
-
-function getImage(key: string) {
-  const src: string = data[key].img || '/personas/Anubis.webp';
-  return src;
-}
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <section class="card-grid">
-      {
-        Object.keys(data).map(key => (
-          <a href={`/persona/${key}`}>
-            <div class="card">
-              <h1>{key}</h1>
-              <img src={getImage(key)} alt={`${key} image`} />
-            </div>
-          </a>
-        ))
-      }
-    </section>
+    <PersonaList data={data} client:visible />
   </main>
 </Layout>
-
-<style>
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-  }
-  .card {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid lightgray;
-    align-items: center;
-    border-radius: 5px;
-  }
-  img {
-    max-width: 100%;
-    height: 200px;
-    object-fit: contain;
-  }
-</style>
+components/PersonaList/PersonaList

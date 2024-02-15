@@ -1,11 +1,19 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "E:/Felipe Vogt/Proyectos/persona-dex/src",
     "paths": {
-      "@models/*": ["models/*"],
-      "@data/*": ["data/*"],
-      "@layouts/*": ["layouts/*"]
-    }
+      "@models/*": [
+        "models/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
   }
 }

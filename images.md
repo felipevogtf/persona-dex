@@ -18,57 +18,57 @@
 - [x] Atavaka
 - [x] Atropos
 - [x] Attis
-- [ ] Baal
-- [ ] Baphomet
-- [ ] Barong
-- [ ] Beelzebub
-- [ ] Belial
-- [ ] Belphegor
-- [ ] Berith
-- [ ] Bicorn
-- [ ] Bishamonten
-- [ ] Black Frost
-- [ ] Black Ooze
-- [ ] Black Rider
-- [ ] Bugs
-- [ ] Byakhee
-- [ ] Byakko
-- [ ] Cait Sith
-- [ ] Cerberus
-- [ ] Chernobog
-- [ ] Chi You
-- [ ] Chimera
-- [ ] Choronzon
-- [ ] Clotho
-- [ ] Crystal Skull
-- [ ] Cu Chulainn
-- [ ] Cybele
-- [ ] Daisoujou
-- [ ] Dakini
-- [ ] Decarabia
-- [ ] Dionysus
-- [ ] Dominion
-- [ ] Eligor
-- [ ] Emperor's Amulet
-- [ ] Fafnir
-- [ ] Flauros
-- [ ] Forneus
-- [ ] Fortuna
-- [ ] Futsunushi
-- [ ] Fuu-Ki
-- [ ] Gabriel
-- [ ] Ganesha
-- [ ] Garuda
-- [ ] Genbu
-- [ ] Girimehkala
-- [ ] Hanuman
-- [ ] Hariti
+- [x] Baal
+- [x] Baphomet
+- [x] Barong
+- [x] Beelzebub
+- [x] Belial
+- [x] Belphegor
+- [x] Berith
+- [x] Bicorn
+- [x] Bishamonten
+- [x] Black Frost
+- [x] Black Ooze
+- [x] Black Rider
+- [x] Bugs
+- [x] Byakhee
+- [x] Byakko
+- [x] Cait Sith
+- [x] Cerberus
+- [x] Chernobog
+- [x] Chi You
+- [x] Chimera
+- [x] Choronzon
+- [x] Clotho
+- [x] Crystal Skull
+- [x] Cu Chulainn
+- [x] Cybele
+- [x] Daisoujou
+- [x] Dakini
+- [x] Decarabia
+- [x] Dionysus
+- [x] Dominion
+- [x] Eligor
+- [x] Emperor's Amulet
+- [x] Fafnir
+- [x] Flauros
+- [x] Forneus
+- [x] Fortuna
+- [x] Futsunushi
+- [x] Fuu-Ki
+- [x] Gabriel
+- [x] Ganesha
+- [x] Garuda
+- [x] Genbu
+- [x] Girimehkala
+- [x] Hanuman
+- [x] Hariti
 - [ ] Hastur
-- [ ] Hecatoncheires
-- [ ] Hell Biker
-- [ ] High Pixie
-- [ ] Hope Diamond
-- [ ] Horus
+- [x] Hecatoncheires
+- [x] Hell Biker
+- [x] High Pixie
+- [x] Hope Diamond
+- [x] Horus
 - [ ] Hua Po
 - [ ] Incubus
 - [ ] Inugami

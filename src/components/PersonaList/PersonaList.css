@@ -1,0 +1,35 @@
+.persona-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: solid 5px white;
+  border-radius: 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  box-shadow: 1px 1px 0 5px black;
+  padding: 10px;
+  gap: 20px;
+  text-decoration: none;
+  transition:
+    border-color ease-in-out 200ms,
+    color ease-in-out 200ms;
+}
+
+.persona-card img {
+  filter: grayscale(100%) brightness(100%) hue-rotate(0deg);
+  transition: filter ease-in-out 200ms;
+}
+
+.persona-card:hover {
+  border-color: red;
+  color: red;
+}
+
+.persona-card:hover img {
+  filter: grayscale(0%) brightness(100%) hue-rotate(0deg);
+}
