@@ -1,0 +1,20 @@
+{
+  "name": "persona-dex",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.4",
+    "astro": "^4.3.7",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}

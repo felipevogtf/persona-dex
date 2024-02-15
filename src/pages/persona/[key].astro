@@ -1,0 +1,22 @@
+---
+import type { Personas, PersonaData } from '@models/persona.model';
+import { PERSONAS_ROYAL_DATA } from '@data/personas.data';
+import Layout from '@layouts/Layout.astro';
+
+const { key } = Astro.params;
+
+const data: PersonaData = PERSONAS_ROYAL_DATA[key];
+
+export function getStaticPaths() {
+  const data: Personas = PERSONAS_ROYAL_DATA;
+
+  return Object.keys(data).map(key => ({ params: { key: key } }));
+}
+---
+
+<Layout title="Welcome to Astro.">
+  <section>
+    <h1>{key}</h1>
+    <img src={data.img} alt="" />
+  </section>
+</Layout>
