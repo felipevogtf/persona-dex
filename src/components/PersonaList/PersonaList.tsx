@@ -1,5 +1,5 @@
+import React, { useRef, useState } from 'react';
 import type { Personas } from '@models/persona.model';
-import { useState } from 'preact/hooks';
 import './PersonaList.css';
 
 interface PersonaListProps {
@@ -8,6 +8,7 @@ interface PersonaListProps {
 
 export function PersonaList({ data }: PersonaListProps) {
   const [filterText, setFilterText] = useState('');
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleInputChange = (e: any) => {
     setFilterText(e.target.value);
@@ -17,25 +18,33 @@ export function PersonaList({ data }: PersonaListProps) {
     key.toLowerCase().includes(filterText.toLowerCase())
   );
 
+  const handleContainerClick = () => {
+    inputRef.current!.focus();
+  };
+
   return (
     <>
-      <input
-        type="text"
-        value={filterText}
-        onInput={handleInputChange}
-        placeholder="Buscar..."
-      />
+      <div className="persona-search" onClick={handleContainerClick}>
+        <input
+          ref={inputRef}
+          type="text"
+          value={filterText}
+          onInput={handleInputChange}
+          placeholder="Search persona..."
+        />
+      </div>
 
       <section
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
           gap: '20px',
+          marginTop: '20px',
         }}
       >
         {filteredKeys.map(key => (
-          <a href={`/persona/${key}`} class="persona-card">
-            <span class="persona-card__title">{key}</span>
+          <a href={`/persona/${key}`} className="persona-card" key={key}>
+            <span className="persona-card__title">{key}</span>
             <img
               src={data[key].img}
               alt={key}

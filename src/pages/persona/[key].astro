@@ -6,6 +6,48 @@ import Layout from '@layouts/Layout.astro';
 const { key } = Astro.params;
 
 const data: PersonaData = PERSONAS_ROYAL_DATA[key];
+const STATS_NAME: { [key: number]: string } = {
+  0: 'St',
+  1: 'Ma',
+  2: 'En',
+  3: 'Ag',
+  4: 'Lu',
+};
+
+const WEAK_IMGS: { [key: number]: string } = {
+  0: '/weakness/Melee_Icon.webp',
+  1: '/weakness/Ranged_Icon.webp',
+  2: '/weakness/Fire_Icon.webp',
+  3: '/weakness/Ice_Icon.webp',
+  4: '/weakness/Elec_Icon.webp',
+  5: '/weakness/Wind_Icon.webp',
+  6: '/weakness/Psy_Icon.webp',
+  7: '/weakness/Nuclear_Icon.webp',
+  8: '/weakness/Light_Icon.webp',
+  9: '/weakness/Dark_Icon.webp',
+};
+
+const WEAK_TEXTS: { [key: string]: string } = {
+  '-': '',
+  wk: 'Wk',
+  rs: 'Str',
+  nu: 'Nul',
+  rp: 'Rpl',
+  ab: 'Dr',
+};
+
+function getProgress(valor: number) {
+  const min = 0;
+  const max = 99;
+
+  const newMin = 0;
+  const newMax = 80;
+  const valorNormalizado = (valor - min) / (max - min);
+
+  const newValue = newMin + valorNormalizado * (newMax - newMin);
+
+  return `width: ${newValue}%`;
+}
 
 export function getStaticPaths() {
   const data: Personas = PERSONAS_ROYAL_DATA;
@@ -15,8 +57,181 @@ export function getStaticPaths() {
 ---
 
 <Layout title="Welcome to Astro.">
-  <section>
-    <h1>{key}</h1>
-    <img src={data.img} alt="" />
+  <section class="persona-detail">
+    <h1 class="persona-detail__title">{key}</h1>
+    <div class="img-container">
+      <img src={data.img} alt="" />
+    </div>
+
+    <div class="weakness-container">
+      {
+        data.elems.map((weak, index) => (
+          <div class="weak">
+            <img src={WEAK_IMGS[index]} alt="" />
+            <span class="weak__title">{WEAK_TEXTS[weak]}</span>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="object-container">
+      <div class="object">{data.item}</div>
+    </div>
+
+    <div class="stat-container">
+      {
+        data.stats.map((stat, index) => (
+          <div class="stat">
+            <div class="stat__name">
+              {STATS_NAME[index]} {stat}
+            </div>
+            <div class="stat__progress" style={getProgress(stat)} />
+          </div>
+        ))
+      }
+    </div>
   </section>
 </Layout>
+
+<style>
+  .persona-detail {
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .persona-detail__title {
+    grid-column: 1 / span 2;
+  }
+
+  .stat-container {
+    box-sizing: border-box;
+    max-width: 500px;
+
+    grid-row: 3 / span 1;
+  }
+
+  .stat {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .stat:nth-child(even) .stat__progress {
+    margin-left: -5px;
+  }
+  .stat:nth-child(even) .stat__name {
+    margin-left: 5px;
+  }
+
+  .img-container {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 2;
+  }
+
+  .img-container img {
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    max-height: 600px;
+  }
+
+  .stat__name {
+    height: 100%;
+    width: 20%;
+    color: black;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
+  .stat__progress {
+    box-sizing: border-box;
+    border: solid 5px white;
+    height: 100%;
+    background-color: red;
+  }
+
+  .weakness-container {
+    grid-row: 2;
+    grid-column: 1 / span 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .weak {
+    background-color: rgb(19, 19, 19);
+
+    box-shadow: 1px 1px 0 5px black;
+    padding: 1px;
+
+    border: solid 5px white;
+    border-radius: 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+  }
+
+  .weak img {
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+  .weak:nth-child(even) {
+    margin-top: 10px;
+  }
+
+  .weak__title {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .weak__title--ab {
+  }
+  .weak__title--wk {
+  }
+  .weak__title--nu {
+  }
+  .weak__title--rs {
+  }
+  .weak__title--rp {
+  }
+
+  .object {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: 1px 1px 0 5px black;
+    padding: 5px;
+
+    border: solid 5px white;
+    border-radius: 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+  }
+</style>

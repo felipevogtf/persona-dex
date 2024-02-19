@@ -17,7 +17,9 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <slot />
+    <div class="content">
+      <slot />
+    </div>
   </body>
 </html>
 <style is:global>
@@ -39,8 +41,20 @@ const { title } = Astro.props;
   }
 
   body {
-    background: url('background.png');
+    background: url('/background.png');
+    margin: 0;
+    background-size: cover;
+    background-repeat: repeat-y;
+    min-height: 100vh;
   }
+
+  .content {
+    padding: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   code {
     font-family:
       Menlo,
