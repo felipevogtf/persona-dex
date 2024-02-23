@@ -55,7 +55,7 @@ export function getStaticPaths() {
     </div>
 
     <div class="persona-detail__img">
-      <img src={data.img} alt="" />
+      <img src={import.meta.env.BASE_URL + '/' + data.img} alt="" />
     </div>
 
     <div class="persona-detail__box">
