@@ -43,7 +43,7 @@ export function PersonaList({ data }: PersonaListProps) {
         }}
       >
         {filteredKeys.map(key => (
-          <a href={`/persona/${key}`} className="persona-card" key={key}>
+          <a href={`./persona/${key}`} className="persona-card" key={key}>
             <span className="persona-card__title">{key}</span>
             <img
               src={data[key].img}
