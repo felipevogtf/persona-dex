@@ -46,7 +46,7 @@ export function PersonaList({ data }: PersonaListProps) {
           <a href={`./persona/${key}`} className="persona-card" key={key}>
             <span className="persona-card__title">{key}</span>
             <img
-              src={data[key].img}
+              src={import.meta.env.BASE_URL + '/' + data[key].img}
               alt={key}
               loading="lazy"
               style={{
