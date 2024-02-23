@@ -34,7 +34,7 @@ const WEAK_IMGS: { [key: number]: string } = {
       weakness.map((weak, index) => (
         <div class="weak-container">
           <div class="weak">
-            <img src={WEAK_IMGS[index]} alt="" />
+            <img src={import.meta.env.BASE_URL + WEAK_IMGS[index]} alt="" />
             <span class="weak__title">{WEAK_TEXTS[weak]}</span>
           </div>
         </div>
