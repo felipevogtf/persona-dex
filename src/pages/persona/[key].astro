@@ -2,6 +2,8 @@
 import type { Personas, PersonaData } from '@models/persona.model';
 import { PERSONAS_ROYAL_DATA } from '@data/personas.data';
 import Layout from '@layouts/Layout.astro';
+import Description from '@components/Description.astro';
+import Weakness from '@components/Weakness.astro';
 
 const { key } = Astro.params;
 
@@ -12,28 +14,6 @@ const STATS_NAME: { [key: number]: string } = {
   2: 'En',
   3: 'Ag',
   4: 'Lu',
-};
-
-const WEAK_IMGS: { [key: number]: string } = {
-  0: '/weakness/Melee_Icon.webp',
-  1: '/weakness/Ranged_Icon.webp',
-  2: '/weakness/Fire_Icon.webp',
-  3: '/weakness/Ice_Icon.webp',
-  4: '/weakness/Elec_Icon.webp',
-  5: '/weakness/Wind_Icon.webp',
-  6: '/weakness/Psy_Icon.webp',
-  7: '/weakness/Nuclear_Icon.webp',
-  8: '/weakness/Light_Icon.webp',
-  9: '/weakness/Dark_Icon.webp',
-};
-
-const WEAK_TEXTS: { [key: string]: string } = {
-  '-': '',
-  wk: 'Wk',
-  rs: 'Str',
-  nu: 'Nul',
-  rp: 'Rpl',
-  ab: 'Dr',
 };
 
 function getProgress(valor: number) {
@@ -56,182 +36,194 @@ export function getStaticPaths() {
 }
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={key} description={data.description}>
   <section class="persona-detail">
-    <h1 class="persona-detail__title">{key}</h1>
-    <div class="img-container">
+    <div class="persona-detail__title">
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+          ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+          ></path></svg
+        >
+      </a>
+      <h1>Lv. {data.level} {key}</h1>
+    </div>
+
+    <div class="persona-detail__weakness">
+      <Weakness weakness={data.elems} />
+    </div>
+
+    <div class="persona-detail__img">
       <img src={data.img} alt="" />
     </div>
 
-    <div class="weakness-container">
-      {
-        data.elems.map((weak, index) => (
-          <div class="weak">
-            <img src={WEAK_IMGS[index]} alt="" />
-            <span class="weak__title">{WEAK_TEXTS[weak]}</span>
-          </div>
-        ))
-      }
-    </div>
+    <div class="persona-detail__box">
+      <div class="persona-detail__object">
+        <div class="object">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+            ></path></svg
+          >
+          <span>{data.item}</span>
+        </div>
+      </div>
 
-    <div class="object-container">
-      <div class="object">{data.item}</div>
-    </div>
-
-    <div class="stat-container">
-      {
-        data.stats.map((stat, index) => (
-          <div class="stat">
-            <div class="stat__name">
-              {STATS_NAME[index]} {stat}
+      <div class="persona-detail__stat">
+        {
+          data.stats.map((stat, index) => (
+            <div class="stat">
+              <div class="stat__name">
+                {STATS_NAME[index]} {stat}
+              </div>
+              <div class="stat__progress" style={getProgress(stat)} />
             </div>
-            <div class="stat__progress" style={getProgress(stat)} />
-          </div>
-        ))
-      }
+          ))
+        }
+      </div>
     </div>
   </section>
+  <div>
+    <Description description={data.description} />
+  </div>
+
+  <style>
+    .persona-detail {
+      color: white;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      margin-top: 50px;
+    }
+
+    .persona-detail__title {
+      padding: 0px 30px;
+      background-color: black;
+      transform: skew(-10deg, -2deg);
+      grid-column: 1 / span 2;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .persona-detail__title a {
+      background: none;
+      border: none;
+      padding: 10px;
+    }
+
+    .persona-detail__title a:hover {
+      cursor: pointer;
+    }
+
+    .persona-detail__title a svg {
+      width: 20px;
+      fill: white;
+      transition: transform 300ms ease-out;
+    }
+
+    .persona-detail__title a:hover svg {
+      transform: translateX(-5px);
+    }
+
+    .persona-detail__weakness {
+      grid-row: 2;
+      grid-column: 1 / span 2;
+      padding-bottom: 70px;
+    }
+
+    .persona-detail__box {
+      grid-row: 3;
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .persona-detail__stat {
+      box-sizing: border-box;
+      max-width: 500px;
+    }
+
+    .stat {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      height: 40px;
+
+      box-sizing: border-box;
+      align-items: center;
+    }
+
+    .stat:nth-child(even) .stat__progress {
+      margin-left: -5px;
+    }
+    .stat:nth-child(even) .stat__name {
+      margin-left: 5px;
+    }
+
+    .persona-detail__img {
+      grid-column: 2 / span 1;
+      grid-row: 3;
+    }
+
+    .persona-detail__img img {
+      max-width: 100%;
+      object-fit: contain;
+      display: block;
+      margin: auto;
+      max-height: 500px;
+    }
+
+    .stat__name {
+      height: 100%;
+      width: 20%;
+      color: black;
+      background-color: white;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 10px;
+
+      font-weight: bold;
+      font-size: xx-large;
+    }
+
+    .stat__progress {
+      box-sizing: border-box;
+      border: solid 5px white;
+      height: 100%;
+      background-color: red;
+    }
+
+    .object {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      font-size: x-large;
+      padding: 10px 20px;
+
+      transform: skew(-10deg, 1deg);
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      gap: 20px;
+    }
+
+    .object svg {
+      width: 20px;
+    }
+
+    .description-container {
+      grid-row: 5;
+    }
+  </style>
 </Layout>
-
-<style>
-  .persona-detail {
-    color: white;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .persona-detail__title {
-    grid-column: 1 / span 2;
-  }
-
-  .stat-container {
-    box-sizing: border-box;
-    max-width: 500px;
-
-    grid-row: 3 / span 1;
-  }
-
-  .stat {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-
-    box-sizing: border-box;
-    align-items: center;
-  }
-
-  .stat:nth-child(even) .stat__progress {
-    margin-left: -5px;
-  }
-  .stat:nth-child(even) .stat__name {
-    margin-left: 5px;
-  }
-
-  .img-container {
-    grid-column: 2 / span 1;
-    grid-row: 2 / span 2;
-  }
-
-  .img-container img {
-    max-width: 100%;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-    max-height: 600px;
-  }
-
-  .stat__name {
-    height: 100%;
-    width: 20%;
-    color: black;
-    background-color: white;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 10px;
-
-    font-weight: bold;
-    font-size: xx-large;
-  }
-
-  .stat__progress {
-    box-sizing: border-box;
-    border: solid 5px white;
-    height: 100%;
-    background-color: red;
-  }
-
-  .weakness-container {
-    grid-row: 2;
-    grid-column: 1 / span 1;
-    display: flex;
-    flex-direction: row;
-    column-gap: 5px;
-    flex-wrap: wrap;
-    align-content: flex-start;
-  }
-
-  .weak {
-    background-color: rgb(19, 19, 19);
-
-    box-shadow: 1px 1px 0 5px black;
-    padding: 1px;
-
-    border: solid 5px white;
-    border-radius: 15px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
-    border-bottom-right-radius: 225px 15px;
-    border-bottom-left-radius: 15px 255px;
-
-    display: flex;
-    flex-direction: column;
-
-    height: fit-content;
-  }
-
-  .weak img {
-    min-width: 40px;
-    max-width: 40px;
-  }
-
-  .weak:nth-child(even) {
-    margin-top: 10px;
-  }
-
-  .weak__title {
-    color: white;
-    font-weight: bold;
-    font-size: x-large;
-  }
-
-  .weak__title--ab {
-  }
-  .weak__title--wk {
-  }
-  .weak__title--nu {
-  }
-  .weak__title--rs {
-  }
-  .weak__title--rp {
-  }
-
-  .object {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    font-size: x-large;
-    box-shadow: 1px 1px 0 5px black;
-    padding: 5px;
-
-    border: solid 5px white;
-    border-radius: 15px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
-    border-bottom-right-radius: 225px 15px;
-    border-bottom-left-radius: 15px 255px;
-  }
-</style>

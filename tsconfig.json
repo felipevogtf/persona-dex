@@ -3,15 +3,10 @@
   "compilerOptions": {
     "baseUrl": "E:/Felipe Vogt/Proyectos/persona-dex/src",
     "paths": {
-      "@models/*": [
-        "models/*"
-      ],
-      "@data/*": [
-        "data/*"
-      ],
-      "@layouts/*": [
-        "layouts/*"
-      ]
+      "@models/*": ["models/*"],
+      "@data/*": ["data/*"],
+      "@layouts/*": ["layouts/*"],
+      "@components/*": ["components/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"

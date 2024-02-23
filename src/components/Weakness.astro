@@ -1,0 +1,99 @@
+---
+interface Props {
+  weakness: string[];
+}
+
+const { weakness } = Astro.props;
+
+const WEAK_TEXTS: { [key: string]: string } = {
+  '-': '',
+  wk: 'Wk',
+  rs: 'Str',
+  nu: 'Nul',
+  rp: 'Rpl',
+  ab: 'Dr',
+};
+
+const WEAK_IMGS: { [key: number]: string } = {
+  0: '/weakness/Melee_Icon.webp',
+  1: '/weakness/Ranged_Icon.webp',
+  2: '/weakness/Fire_Icon.webp',
+  3: '/weakness/Ice_Icon.webp',
+  4: '/weakness/Elec_Icon.webp',
+  5: '/weakness/Wind_Icon.webp',
+  6: '/weakness/Psy_Icon.webp',
+  7: '/weakness/Nuclear_Icon.webp',
+  8: '/weakness/Light_Icon.webp',
+  9: '/weakness/Dark_Icon.webp',
+};
+---
+
+<section class="container">
+  <div class="container__body">
+    {
+      weakness.map((weak, index) => (
+        <div class="weak-container">
+          <div class="weak">
+            <img src={WEAK_IMGS[index]} alt="" />
+            <span class="weak__title">{WEAK_TEXTS[weak]}</span>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .container {
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 0px 30px;
+    transform: skew(-10deg, -2deg);
+    height: 45%;
+  }
+
+  .container__body {
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 5px;
+  }
+
+  .weak-container {
+    background-color: white;
+    color: white;
+    padding: 5px;
+    height: fit-content;
+
+    transform: skew(10deg, -2deg);
+  }
+
+  .weak {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: x-large;
+    font-weight: bold;
+
+    padding: 5px;
+  }
+
+  .weak img {
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+  .weak-container:nth-child(even) {
+    margin-top: 10px;
+  }
+
+  .weak-container:nth-child(2) {
+    margin-right: 15px;
+  }
+</style>

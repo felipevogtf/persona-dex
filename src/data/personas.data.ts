@@ -22,6 +22,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Abaddon.webp',
+    description:
+      'The "Destroyer" and "Angel of the Bottomless Pit," as described in ancient scriptures. He controls locusts and uses them to cause massive destruction to villages.',
   },
   Agathion: {
     inherits: 'Electric',
@@ -44,6 +46,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L1',
     img: '/personas/Agathion.webp',
+    description:
+      'A general term for familiars used by Judeo-Christian magicians, they are usually sealed away in bottles, rings, or talismans. They torment the target selected by the conjurer.',
   },
   Alice: {
     special: true,
@@ -66,6 +70,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Just Die',
     max: true,
     img: '/personas/Alice.webp',
+    description:
+      "A mysterious blond girl. She is quite powerful, despite her looks. Some say she is the ghost of a girl who died a sad death. Others say she is a spirit born from someone's imagination.",
   },
   Alilat: {
     inherits: 'Ice',
@@ -89,6 +95,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Frigid Bloodline',
     note: 'Only available after 1/12',
     img: '/personas/Alilat.webp',
+    description:
+      'The Arabian mother goddess also known as Allat. She was thought to reside in the Black Stone at the Kaaba. She and her son, Dusura, were worshipped there by desert nomads',
   },
   'Ame-no-Uzume': {
     inherits: 'Almighty',
@@ -110,6 +118,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Ame-no-Uzume.webp',
+    description:
+      'Japanese goddess of entertainment, she governs many sacred dances. She is most famous for luring out Amaterasu, who had barricaded herself inside a cave.',
   },
   Ananta: {
     inherits: 'Nuclear',
@@ -131,6 +141,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [26, 30, 31, 27, 25],
     trait: 'Atomic Bloodline',
     img: '/personas/Ananta.webp',
+    description:
+      'The 1,000-headed serpent of Hindu legend, Ananta is Sanskrit for "infinite." After resting on him, Vishnu woke up and created the universe.',
   },
   Andras: {
     inherits: 'Ice',
@@ -153,6 +165,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: '???',
     img: '/personas/Andras.webp',
+    description:
+      'One of the 72 demons of the Goetia. The great Marquis of Hell, he appears where there is battle to stoke the hatred within soldiers. He helps defeat the enemies of those who summon him.',
   },
   Angel: {
     inherits: 'Bless',
@@ -175,6 +189,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus / Kaitul',
     floor: 'L5 & 6 / L1-4',
     img: '/personas/Angel.webp',
+    description:
+      'Ninth of the nine orders of angels. They are closest in nature to humans. They watch over individuals and warn those who stray from the path.',
   },
   Anubis: {
     inherits: 'Almighty',
@@ -197,6 +213,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L10 & 11',
     img: '/personas/Anubis.webp',
+    description:
+      'The jackal-headed god of the dead and embalming from Egyptian myth. He weighs the hearts of the dead to determine their final destination.',
   },
   Anzu: {
     inherits: 'Wind',
@@ -219,6 +237,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
     img: '/personas/Anzu.webp',
+    description:
+      "An evil deity of Mesopotamian folklore with an eagle's body and lion's head. While the god of Enlil purified himself, Anzu stole the Tablets of Destiny from him.",
   },
   Apsaras: {
     inherits: 'Ice',
@@ -241,6 +261,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-4',
     img: '/personas/Apsaras.webp',
+    description:
+      'Hindu water spirits, they are beautiful young women who dance for the gods. They also guide heroes fallen in battle to paradise.',
   },
   'Ara Mitama': {
     inherits: 'Nuclear',
@@ -261,6 +283,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [20, 18, 20, 20, 19],
     trait: 'Atomic Bloodline',
     img: '/personas/Ara_Mitama.webp',
+    description:
+      "One of the four aspects of Shinto thought, it has the power to grant ferocity. It is said to aid in one's bravery, growth, and endeavors, though it can lead in a negative direction.",
   },
   Arahabaki: {
     inherits: 'Ailment',
@@ -282,6 +306,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10',
     img: '/personas/Arahabaki.webp',
+    description: 'DESCRIPTION',
   },
   Archangel: {
     inherits: 'Bless',
@@ -304,6 +329,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
     img: '/personas/Archangel.webp',
+    description:
+      'A mysterious god of ancient Japan. Most famously worshipped by Nagasunehiko, who was defeated in battle against Emperor Jimmu, Arahabaki came to be treated as a symbol of rebellion and defiance.',
   },
   Ardha: {
     special: true,
@@ -326,6 +353,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Naranari',
     max: true,
     img: '/personas/Ardha.webp',
+    description:
+      'A god of dual gender whose appearance is half that of the destroyer, Shiva, and half his wife, Parvati. Ardha is the ideal figure of Shaktism, the perfect god.',
   },
   Arsène: {
     inherits: 'Curse',
@@ -344,6 +373,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [2, 2, 2, 3, 1],
     trait: 'Pinch Anchor',
     img: '/personas/Ars%C3%A8ne.webp',
+    description:
+      "A being based off the main character of Maurice Leblanc's novels, Arsène Lupin. He appears everywhere and is a master of disguise. He is known to help law-abiding citizens.",
   },
   Asura: {
     special: true,
@@ -366,6 +397,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Atomic Hellscape',
     max: true,
     img: '/personas/Asura.webp',
+    description:
+      'The Hindu king of Asuras is named Maha Vairocana, or "One Who Shines On All." In Buddhism, he is known as Dainichi Nyorai.',
   },
   Atavaka: {
     inherits: 'Physical',
@@ -387,6 +420,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [51, 36, 43, 38, 34],
     trait: 'Savior Bloodline',
     img: '/personas/Atavaka.webp',
+    description:
+      'One of the eight Yashaou. His domain is war and protection. Once a child-eating demon, he became one of the Wisdom Kings after Buddha converted him to good.',
   },
   Atropos: {
     inherits: 'Electric',
@@ -408,6 +443,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [23, 30, 22, 27, 22],
     trait: 'Mighty Gaze',
     img: '/personas/Atropos.webp',
+    description:
+      'The eldest of the three Moirae Sisters of Greek mythology. She cuts the threads of life for those whose time has come.',
   },
   Attis: {
     inherits: 'Fire',
@@ -430,6 +467,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Vitality of the Tree',
     max: true,
     img: '/personas/Attis.webp',
+    description:
+      "A Phrygian god who symbolizes life, death, and revival. He rejected Cybele's love and was driven mad, dying after he castrated himself. Cybele then resurrected him.",
   },
   Baal: {
     inherits: 'Wind',
@@ -450,6 +489,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [54, 58, 53, 47, 41],
     trait: 'Wind Bloodline',
     img: '/personas/Baal.webp',
+    description: 'DESCRIPTION',
   },
   Baphomet: {
     inherits: 'Almighty',
@@ -473,6 +513,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
     img: '/personas/Baphomet.webp',
+    description: 'DESCRIPTION',
   },
   Barong: {
     inherits: 'Electric',
@@ -495,6 +536,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11 & 12 (after Palace 7)',
     img: '/personas/Barong.webp',
+    description: 'DESCRIPTION',
   },
   Beelzebub: {
     inherits: 'Curse',
@@ -517,6 +559,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: "Mother's Lament",
     max: true,
     img: '/personas/Beelzebub.webp',
+    description: 'DESCRIPTION',
   },
   Belial: {
     inherits: 'Curse',
@@ -538,6 +581,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [52, 53, 51, 48, 49],
     trait: 'Bloodstained Eyes',
     img: '/personas/Belial.webp',
+    description: 'DESCRIPTION',
   },
   Belphegor: {
     inherits: 'Ice',
@@ -560,6 +604,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L6-8, 10',
     img: '/personas/Belphegor.webp',
+    description: 'DESCRIPTION',
   },
   Berith: {
     inherits: 'Physical',
@@ -581,6 +626,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
     img: '/personas/Berith.webp',
+    description: 'DESCRIPTION',
   },
   Bicorn: {
     inherits: 'Wind',
@@ -602,6 +648,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L1 & 2',
     img: '/personas/Bicorn.webp',
+    description: 'DESCRIPTION',
   },
   Bishamonten: {
     inherits: 'Nuclear',
@@ -623,6 +670,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [51, 37, 42, 44, 34],
     trait: 'Savior Bloodline',
     img: '/personas/Bishamonten.webp',
+    description: 'DESCRIPTION',
   },
   'Black Frost': {
     special: true,
@@ -644,6 +692,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [44, 46, 41, 42, 35],
     trait: 'Frigid Bloodline',
     img: '/personas/Black_Frost.webp',
+    description: 'DESCRIPTION',
   },
   'Black Ooze': {
     inherits: 'Curse',
@@ -667,6 +716,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4, 6',
     img: '/personas/Black_Ooze.webp',
+    description: 'DESCRIPTION',
   },
   'Black Rider': {
     inherits: 'Curse',
@@ -688,6 +738,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [36, 42, 34, 42, 30],
     trait: 'Gloomy Child',
     img: '/personas/Black_Rider.webp',
+    description: 'DESCRIPTION',
   },
   Bugs: {
     special: true,
@@ -709,6 +760,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 33, 30, 32, 24],
     trait: 'Potent Hypnosis',
     img: '/personas/Bugs.webp',
+    description: 'DESCRIPTION',
   },
   Byakhee: {
     inherits: 'Fire',
@@ -731,6 +783,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Heated Bloodline',
     note: 'Only available after 1/12',
     img: '/personas/Byakhee.webp',
+    description: 'DESCRIPTION',
   },
   Byakko: {
     inherits: 'Ice',
@@ -752,6 +805,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 28, 30, 32, 17],
     trait: 'Retaliating Body',
     img: '/personas/Byakko.webp',
+    description: 'DESCRIPTION',
   },
   'Cait Sith': {
     inherits: 'Ailment',
@@ -772,6 +826,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [6, 4, 4, 5, 3],
     trait: 'Thermal Conduct',
     img: '/personas/Cait_Sith.webp',
+    description: 'DESCRIPTION',
   },
   Cerberus: {
     inherits: 'Fire',
@@ -794,6 +849,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
     img: '/personas/Cerberus.webp',
+    description: 'DESCRIPTION',
   },
   Chernobog: {
     inherits: 'Ailment',
@@ -817,6 +873,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Chernobog.webp',
+    description: 'DESCRIPTION',
   },
   'Chi You': {
     special: true,
@@ -839,6 +896,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [56, 57, 54, 53, 51],
     trait: "Chi You's Blessing",
     img: '/personas/Chi_You.webp',
+    description: 'DESCRIPTION',
   },
   Chimera: {
     inherits: 'Physical',
@@ -861,6 +919,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Foul Stench',
     note: 'Only available after 1/12',
     img: '/personas/Chimera.webp',
+    description: 'DESCRIPTION',
   },
   Choronzon: {
     inherits: 'Curse',
@@ -884,6 +943,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-4',
     img: '/personas/Choronzon.webp',
+    description: 'DESCRIPTION',
   },
   Clotho: {
     inherits: 'Healing',
@@ -905,6 +965,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [14, 19, 18, 20, 17],
     trait: 'Relief Bloodline',
     img: '/personas/Clotho.webp',
+    description: 'DESCRIPTION',
   },
   'Crystal Skull': {
     rare: true,
@@ -931,6 +992,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Sheriruth / Da'at",
     floor: 'L7-9. 11-13 (after Palace 7) / All',
     img: '/personas/Crystal_Skull.webp',
+    description: 'DESCRIPTION',
   },
   'Cu Chulainn': {
     inherits: 'Almighty',
@@ -952,6 +1014,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [55, 44, 46, 48, 42],
     trait: 'Potent Hypnosis',
     img: '/personas/Cu_Chulainn.webp',
+    description: 'DESCRIPTION',
   },
   Cybele: {
     inherits: 'Healing',
@@ -973,6 +1036,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Linked Bloodline',
     max: true,
     img: '/personas/Cybele.webp',
+    description: 'DESCRIPTION',
   },
   Daisoujou: {
     inherits: 'Bless',
@@ -993,6 +1057,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [21, 33, 24, 24, 25],
     trait: 'Draining Mouth',
     img: '/personas/Daisoujou.webp',
+    description: 'DESCRIPTION',
   },
   Dakini: {
     inherits: 'Physical',
@@ -1016,6 +1081,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
     img: '/personas/Dakini.webp',
+    description: 'DESCRIPTION',
   },
   Decarabia: {
     inherits: 'Fire',
@@ -1039,6 +1105,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L3, 4, 6-8',
     img: '/personas/Decarabia.webp',
+    description: 'DESCRIPTION',
   },
   Dionysus: {
     inherits: 'Ailment',
@@ -1060,6 +1127,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [42, 48, 44, 42, 44],
     trait: 'Pinch Anchor',
     img: '/personas/Dionysus.webp',
+    description: 'DESCRIPTION',
   },
   Dominion: {
     inherits: 'Bless',
@@ -1083,6 +1151,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Dominion.webp',
+    description: 'DESCRIPTION',
   },
   Eligor: {
     inherits: 'Fire',
@@ -1105,6 +1174,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L3 & 4',
     img: '/personas/Eligor.webp',
+    description: 'DESCRIPTION',
   },
   "Emperor's Amulet": {
     rare: true,
@@ -1131,6 +1201,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9, 11-13 (after Palace 7)',
     img: "/personas/Emperor's_Amulet.webp",
+    description: 'DESCRIPTION',
   },
   Fafnir: {
     inherits: 'Nuclear',
@@ -1152,6 +1223,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ailment Hunter',
     note: 'Only available after 1/12',
     img: '/personas/Fafnir.webp',
+    description: 'DESCRIPTION',
   },
   Flauros: {
     special: true,
@@ -1173,6 +1245,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [15, 11, 13, 14, 11],
     trait: 'Gluttonmouth',
     img: '/personas/Flauros.webp',
+    description: 'DESCRIPTION',
   },
   Forneus: {
     inherits: 'Psy',
@@ -1196,6 +1269,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
     img: '/personas/Forneus.webp',
+    description: 'DESCRIPTION',
   },
   Fortuna: {
     inherits: 'Wind',
@@ -1216,6 +1290,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [23, 32, 29, 34, 27],
     trait: 'Wind Bloodline',
     img: '/personas/Fortuna.webp',
+    description: 'DESCRIPTION',
   },
   Futsunushi: {
     inherits: 'Physical',
@@ -1238,6 +1313,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Will of the Sword',
     max: true,
     img: '/personas/Futsunushi.webp',
+    description: 'DESCRIPTION',
   },
   'Fuu-Ki': {
     inherits: 'Wind',
@@ -1260,6 +1336,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L8 & 9',
     img: '/personas/Fuu-Ki.webp',
+    description: 'DESCRIPTION',
   },
   Gabriel: {
     inherits: 'Almighty',
@@ -1281,6 +1358,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [43, 51, 48, 54, 42],
     trait: 'Relentless',
     img: '/personas/Gabriel.webp',
+    description: 'DESCRIPTION',
   },
   Ganesha: {
     inherits: 'Ailment',
@@ -1304,6 +1382,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
     img: '/personas/Ganesha.webp',
+    description: 'DESCRIPTION',
   },
   Garuda: {
     inherits: 'Wind',
@@ -1327,6 +1406,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 (after Palace 7)',
     img: '/personas/Garuda.webp',
+    description: 'DESCRIPTION',
   },
   Genbu: {
     inherits: 'Ice',
@@ -1346,6 +1426,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [5, 6, 7, 6, 4],
     trait: 'Cold-Blooded',
     img: '/personas/Genbu.webp',
+    description: 'DESCRIPTION',
   },
   Girimehkala: {
     inherits: 'Ailment',
@@ -1368,6 +1449,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L4, 6-8, 10',
     img: '/personas/Girimehkala.webp',
+    description: 'DESCRIPTION',
   },
   Hanuman: {
     inherits: 'Physical',
@@ -1389,6 +1471,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
     img: '/personas/Hanuman.webp',
+    description: 'DESCRIPTION',
   },
   Hariti: {
     inherits: 'Electric',
@@ -1410,6 +1493,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [21, 32, 24, 23, 27],
     trait: 'Electric Bloodline',
     img: '/personas/Hariti.webp',
+    description: 'DESCRIPTION',
   },
   Hastur: {
     inherits: 'Wind',
@@ -1431,6 +1515,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Mouth of Savoring',
     note: 'Only available after 1/12',
     img: '/personas/Hastur.webp',
+    description: 'DESCRIPTION',
   },
   Hecatoncheires: {
     inherits: 'Physical',
@@ -1451,6 +1536,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 22, 27, 23, 26],
     trait: 'Gluttonmouth',
     img: '/personas/Hecatoncheires.webp',
+    description: 'DESCRIPTION',
   },
   'Hell Biker': {
     special: true,
@@ -1472,6 +1558,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [23, 24, 24, 30, 17],
     trait: 'Internal Hypnosis',
     img: '/personas/Hell_Biker.webp',
+    description: 'DESCRIPTION',
   },
   'High Pixie': {
     inherits: 'Healing',
@@ -1494,6 +1581,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-3',
     img: '/personas/High_Pixie.webp',
+    description: 'DESCRIPTION',
   },
   'Hope Diamond': {
     rare: true,
@@ -1520,6 +1608,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9. 11-13 (after Palace 7)',
     img: '/personas/Hope_Diamond.webp',
+    description: 'DESCRIPTION',
   },
   Horus: {
     inherits: 'Almighty',
@@ -1540,6 +1629,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [30, 32, 29, 35, 22],
     trait: 'Potent Hypnosis',
     img: '/personas/Horus.webp',
+    description: 'DESCRIPTION',
   },
   'Hua Po': {
     inherits: 'Fire',
@@ -1561,6 +1651,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-3',
     img: '/personas/Hua_Po.webp',
+    description: 'DESCRIPTION',
   },
   Incubus: {
     inherits: 'Ailment',
@@ -1582,6 +1673,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L2, 3 & 6',
     img: '/personas/Incubus.webp',
+    description: 'DESCRIPTION',
   },
   Inugami: {
     inherits: 'Fire',
@@ -1605,6 +1697,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L4, 6 & 7',
     img: '/personas/Inugami.webp',
+    description: 'DESCRIPTION',
   },
   'Ippon-Datara': {
     inherits: 'Physical',
@@ -1627,6 +1720,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-4',
     img: '/personas/Ippon-Datara.webp',
+    description: 'DESCRIPTION',
   },
   Ishtar: {
     inherits: 'Healing',
@@ -1648,6 +1742,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Grace of Mother',
     max: true,
     img: '/personas/Ishtar.webp',
+    description: 'DESCRIPTION',
   },
   Isis: {
     inherits: 'Healing',
@@ -1671,6 +1766,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
     img: '/personas/Isis.webp',
+    description: 'DESCRIPTION',
   },
   'Jack Frost': {
     inherits: 'Ice',
@@ -1692,6 +1788,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L4 & 6',
     img: '/personas/Jack_Frost.webp',
+    description: 'DESCRIPTION',
   },
   "Jack-o'-Lantern": {
     inherits: 'Fire',
@@ -1712,6 +1809,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1',
     img: "/personas/Jack-o'-Lantern.webp",
+    description: 'DESCRIPTION',
   },
   Jatayu: {
     inherits: 'Wind',
@@ -1733,6 +1831,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [31, 34, 29, 36, 30],
     trait: 'Wind Bloodline',
     img: '/personas/Jatayu.webp',
+    description: 'DESCRIPTION',
   },
   Jikokuten: {
     inherits: 'Physical',
@@ -1753,6 +1852,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [18, 11, 16, 15, 13],
     trait: 'Internal Hypnosis',
     img: '/personas/Jikokuten.webp',
+    description: 'DESCRIPTION',
   },
   Kaiwan: {
     inherits: 'Almighty',
@@ -1776,6 +1876,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L10-12',
     img: '/personas/Kaiwan.webp',
+    description: 'DESCRIPTION',
   },
   Kali: {
     inherits: 'Fire',
@@ -1797,6 +1898,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [43, 41, 39, 39, 34],
     trait: 'Relentless',
     img: '/personas/Kali.webp',
+    description: 'DESCRIPTION',
   },
   Kelpie: {
     inherits: 'Wind',
@@ -1818,6 +1920,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L3',
     img: '/personas/Kelpie.webp',
+    description: 'DESCRIPTION',
   },
   'Kikuri-Hime': {
     inherits: 'Healing',
@@ -1840,6 +1943,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L3-5 (before Palace 7) / L2 & 3 (after Palace 7)',
     img: '/personas/Kikuri-Hime.webp',
+    description: 'DESCRIPTION',
   },
   'Kin-Ki': {
     inherits: 'Physical',
@@ -1863,6 +1967,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
     img: '/personas/Kin-Ki.webp',
+    description: 'DESCRIPTION',
   },
   'King Frost': {
     inherits: 'Ice',
@@ -1885,6 +1990,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L8, 11, 12, 13 (after Palace 7)',
     img: '/personas/King_Frost.webp',
+    description: 'DESCRIPTION',
   },
   Kodama: {
     inherits: 'Ailment',
@@ -1907,6 +2013,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L1-3',
     img: '/personas/Kodama.webp',
+    description: 'DESCRIPTION',
   },
   'Koh-i-Noor': {
     rare: true,
@@ -1933,6 +2040,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10-12',
     img: '/personas/Koh-i-Noor.webp',
+    description: 'DESCRIPTION',
   },
   Kohryu: {
     special: true,
@@ -1955,6 +2063,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Universal Law',
     max: true,
     img: '/personas/Kohryu.webp',
+    description: 'DESCRIPTION',
   },
   'Koppa Tengu': {
     inherits: 'Wind',
@@ -1976,6 +2085,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Koppa_Tengu.webp',
+    description: 'DESCRIPTION',
   },
   Koropokkuru: {
     inherits: 'Ice',
@@ -1999,6 +2109,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L2 & 3',
     img: '/personas/Koropokkuru.webp',
+    description: 'DESCRIPTION',
   },
   Koumokuten: {
     inherits: 'Physical',
@@ -2020,6 +2131,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [37, 29, 34, 29, 25],
     trait: 'Gluttonmouth',
     img: '/personas/Koumokuten.webp',
+    description: 'DESCRIPTION',
   },
   Kumbhanda: {
     inherits: 'Ailment',
@@ -2043,6 +2155,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (before Palace 7) / L4 & 5 (after Palace 7)',
     img: '/personas/Kumbhanda.webp',
+    description: 'DESCRIPTION',
   },
   'Kurama Tengu': {
     inherits: 'Wind',
@@ -2064,6 +2177,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11 (after Palace 7)',
     img: '/personas/Kurama_Tengu.webp',
+    description: 'DESCRIPTION',
   },
   Kushinada: {
     inherits: 'Healing',
@@ -2087,6 +2201,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
     img: '/personas/Kushinada.webp',
+    description: 'DESCRIPTION',
   },
   'Kushi Mitama': {
     inherits: 'Healing',
@@ -2106,6 +2221,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [7, 11, 9, 8, 8],
     trait: 'Gluttonmouth',
     img: '/personas/Kushi_Mitama.webp',
+    description: 'DESCRIPTION',
   },
   Lachesis: {
     inherits: 'Ice',
@@ -2126,6 +2242,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [18, 26, 22, 25, 21],
     trait: 'Internal Hypnosis',
     img: '/personas/Lachesis.webp',
+    description: 'DESCRIPTION',
   },
   Lakshmi: {
     inherits: 'Healing',
@@ -2147,6 +2264,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Wealth of Lotus',
     max: true,
     img: '/personas/Lakshmi.webp',
+    description: 'DESCRIPTION',
   },
   Lamia: {
     inherits: 'Fire',
@@ -2170,6 +2288,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L3, 5-7, 9-11',
     img: '/personas/Lamia.webp',
+    description: 'DESCRIPTION',
   },
   'Leanan Sidhe': {
     inherits: 'Almighty',
@@ -2192,6 +2311,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L3-5',
     img: '/personas/Leanan_Sidhe.webp',
+    description: 'DESCRIPTION',
   },
   Legion: {
     inherits: 'Psy',
@@ -2215,6 +2335,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4',
     img: '/personas/Legion.webp',
+    description: 'DESCRIPTION',
   },
   Lilim: {
     inherits: 'Ice',
@@ -2238,6 +2359,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L6-8, 10-12',
     img: '/personas/Lilim.webp',
+    description: 'DESCRIPTION',
   },
   Lilith: {
     inherits: 'Almighty',
@@ -2261,6 +2383,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Lilith.webp',
+    description: 'DESCRIPTION',
   },
   Loa: {
     inherits: 'Curse',
@@ -2283,6 +2406,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Draining Mouth',
     note: 'Only available after 1/12',
     img: '/personas/Loa.webp',
+    description: 'DESCRIPTION',
   },
   Lucifer: {
     special: true,
@@ -2306,6 +2430,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Allure of Wisdom',
     max: true,
     img: '/personas/Lucifer.webp',
+    description: 'DESCRIPTION',
   },
   Macabre: {
     inherits: 'Curse',
@@ -2328,6 +2453,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ailment Hunter',
     note: 'Only available after 1/12',
     img: '/personas/Macabre.webp',
+    description: 'DESCRIPTION',
   },
   Mada: {
     inherits: 'Fire',
@@ -2350,6 +2476,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Drunken Passion',
     max: true,
     img: '/personas/Mada.webp',
+    description: 'DESCRIPTION',
   },
   Makami: {
     inherits: 'Nuclear',
@@ -2373,6 +2500,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Makami.webp',
+    description: 'DESCRIPTION',
   },
   Mandrake: {
     inherits: 'Electric',
@@ -2393,6 +2521,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1',
     img: '/personas/Mandrake.webp',
+    description: 'DESCRIPTION',
   },
   Mara: {
     inherits: 'Psy',
@@ -2416,6 +2545,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Mara.webp',
+    description: 'DESCRIPTION',
   },
   Maria: {
     inherits: 'Healing',
@@ -2437,6 +2567,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ave Maria',
     max: true,
     img: '/personas/Maria.webp',
+    description: 'DESCRIPTION',
   },
   Matador: {
     inherits: 'Psy',
@@ -2456,6 +2587,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [11, 13, 10, 16, 8],
     trait: 'Potent Hypnosis',
     img: '/personas/Matador.webp',
+    description: 'DESCRIPTION',
   },
   Melchizedek: {
     inherits: 'Bless',
@@ -2479,6 +2611,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Melchizedek.webp',
+    description: 'DESCRIPTION',
   },
   Metatron: {
     special: true,
@@ -2501,6 +2634,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [54, 61, 60, 57, 42],
     trait: "Martyr's Gift",
     img: '/personas/Metatron.webp',
+    description: 'DESCRIPTION',
   },
   Michael: {
     special: true,
@@ -2522,6 +2656,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [57, 54, 55, 56, 46],
     trait: 'Potent Hypnosis',
     img: '/personas/Michael.webp',
+    description: 'DESCRIPTION',
   },
   Mishaguji: {
     inherits: 'Ailment',
@@ -2542,6 +2677,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [32, 32, 32, 32, 35],
     trait: 'Ailment Hunter',
     img: '/personas/Mishaguji.webp',
+    description: 'DESCRIPTION',
   },
   Mitra: {
     inherits: 'Bless',
@@ -2562,6 +2698,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [19, 26, 19, 24, 18],
     trait: 'Blessed Bloodline',
     img: '/personas/Mitra.webp',
+    description: 'DESCRIPTION',
   },
   Mithras: {
     inherits: 'Nuclear',
@@ -2585,6 +2722,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L11 & 12',
     img: '/personas/Mithras.webp',
+    description: 'DESCRIPTION',
   },
   Mokoi: {
     inherits: 'Ailment',
@@ -2607,6 +2745,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-4',
     img: '/personas/Mokoi.webp',
+    description: 'DESCRIPTION',
   },
   Moloch: {
     inherits: 'Fire',
@@ -2629,6 +2768,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Moloch.webp',
+    description: 'DESCRIPTION',
   },
   Mot: {
     inherits: 'Ailment',
@@ -2651,6 +2791,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Mot.webp',
+    description: 'DESCRIPTION',
   },
   'Mother Harlot': {
     inherits: 'Ice',
@@ -2672,6 +2813,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ghost Nest',
     max: true,
     img: '/personas/Mother_Harlot.webp',
+    description: 'DESCRIPTION',
   },
   Mothman: {
     inherits: 'Electric',
@@ -2695,6 +2837,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L3, 4, 7, 8, 10',
     img: '/personas/Mothman.webp',
+    description: 'DESCRIPTION',
   },
   Naga: {
     inherits: 'Electric',
@@ -2718,6 +2861,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L2, 3, 5-7, 9',
     img: '/personas/Naga.webp',
+    description: 'DESCRIPTION',
   },
   Narcissus: {
     inherits: 'Ailment',
@@ -2741,6 +2885,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7 & 8 (after Palace 7)',
     img: '/personas/Narcissus.webp',
+    description: 'DESCRIPTION',
   },
   Nebiros: {
     inherits: 'Curse',
@@ -2762,6 +2907,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [45, 52, 44, 46, 42],
     trait: 'Psychic Bloodline',
     img: '/personas/Nebiros.webp',
+    description: 'DESCRIPTION',
   },
   'Neko Shogun': {
     special: true,
@@ -2783,6 +2929,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [19, 20, 19, 21, 18],
     trait: 'Pinch Anchor',
     img: '/personas/Neko_Shogun.webp',
+    description: 'DESCRIPTION',
   },
   Nekomata: {
     inherits: 'Ailment',
@@ -2805,6 +2952,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L2-4',
     img: '/personas/Nekomata.webp',
+    description: 'DESCRIPTION',
   },
   'Nigi Mitama': {
     inherits: 'Healing',
@@ -2824,6 +2972,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [13, 15, 15, 16, 14],
     trait: 'Relief Bloodline',
     img: '/personas/Nigi_Mitama.webp',
+    description: 'DESCRIPTION',
   },
   Norn: {
     inherits: 'Almighty',
@@ -2847,6 +2996,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
     img: '/personas/Norn.webp',
+    description: 'DESCRIPTION',
   },
   Nue: {
     inherits: 'Curse',
@@ -2870,6 +3020,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L4',
     img: '/personas/Nue.webp',
+    description: 'DESCRIPTION',
   },
   Obariyon: {
     inherits: 'Physical',
@@ -2891,6 +3042,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L3, 5 & 6',
     img: '/personas/Obariyon.webp',
+    description: 'DESCRIPTION',
   },
   Oberon: {
     inherits: 'Electric',
@@ -2915,6 +3067,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
     img: '/personas/Oberon.webp',
+    description: 'DESCRIPTION',
   },
   Odin: {
     inherits: 'Electric',
@@ -2936,6 +3089,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Bargain Bolts',
     max: true,
     img: '/personas/Odin.webp',
+    description: 'DESCRIPTION',
   },
   Okuninushi: {
     inherits: 'Psy',
@@ -2956,6 +3110,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [39, 35, 33, 32, 30],
     trait: 'Psychic Bloodline',
     img: '/personas/Okuninushi.webp',
+    description: 'DESCRIPTION',
   },
   'Ongyo-Ki': {
     special: true,
@@ -2978,6 +3133,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: "Demon's Bite",
     max: true,
     img: '/personas/Ongyo-Ki.webp',
+    description: 'DESCRIPTION',
   },
   Oni: {
     inherits: 'Physical',
@@ -3000,6 +3156,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L3-5, 8, 9',
     img: '/personas/Oni.webp',
+    description: 'DESCRIPTION',
   },
   Onmoraki: {
     inherits: 'Curse',
@@ -3021,6 +3178,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L3 & 4',
     img: '/personas/Onmoraki.webp',
+    description: 'DESCRIPTION',
   },
   Orichalcum: {
     rare: true,
@@ -3045,6 +3203,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [60, 60, 60, 60, 60],
     trait: 'Ultimate Vessel',
     img: '/personas/Orichalcum.webp',
+    description: 'DESCRIPTION',
   },
   Orlov: {
     rare: true,
@@ -3071,6 +3230,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'Any (before Palace 7) / L1-5 (after Palace 7)',
     img: '/personas/Orlov.webp',
+    description: 'DESCRIPTION',
   },
   Orobas: {
     inherits: 'Fire',
@@ -3093,6 +3253,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-3',
     img: '/personas/Orobas.webp',
+    description: 'DESCRIPTION',
   },
   Orthrus: {
     inherits: 'Fire',
@@ -3115,6 +3276,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
     img: '/personas/Orthrus.webp',
+    description: 'DESCRIPTION',
   },
   Ose: {
     inherits: 'Ailment',
@@ -3137,6 +3299,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L1-5, 9 (before Palace 7) / L1-4 (after Palace 7)',
     img: '/personas/Ose.webp',
+    description: 'DESCRIPTION',
   },
   'Pale Rider': {
     inherits: 'Curse',
@@ -3157,6 +3320,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [32, 37, 33, 40, 27],
     trait: 'Foul Stench',
     img: '/personas/Pale_Rider.webp',
+    description: 'DESCRIPTION',
   },
   Parvati: {
     inherits: 'Psy',
@@ -3180,6 +3344,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L9, 11, 12 (after Palace 7)',
     img: '/personas/Parvati.webp',
+    description: 'DESCRIPTION',
   },
   Pazuzu: {
     inherits: 'Curse',
@@ -3200,6 +3365,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [29, 33, 27, 26, 27],
     trait: 'Cursed Bloodline',
     img: '/personas/Pazuzu.webp',
+    description: 'DESCRIPTION',
   },
   Phoenix: {
     inherits: 'Nuclear',
@@ -3219,6 +3385,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [12, 15, 15, 17, 11],
     trait: 'Atomic Bloodline',
     img: '/personas/Phoenix.webp',
+    description: 'DESCRIPTION',
   },
   Pisaca: {
     inherits: 'Curse',
@@ -3241,6 +3408,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
     img: '/personas/Pisaca.webp',
+    description: 'DESCRIPTION',
   },
   Pixie: {
     inherits: 'Electric',
@@ -3261,6 +3429,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1 & 3',
     img: '/personas/Pixie.webp',
+    description: 'DESCRIPTION',
   },
   Power: {
     inherits: 'Bless',
@@ -3284,6 +3453,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L1-5, 7 (before Palace 7) / L1-3 (after Palace 7)',
     img: '/personas/Power.webp',
+    description: 'DESCRIPTION',
   },
   Principality: {
     inherits: 'Bless',
@@ -3304,6 +3474,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [17, 19, 18, 21, 19],
     trait: 'Blessed Bloodline',
     img: '/personas/Principality.webp',
+    description: 'DESCRIPTION',
   },
   'Queen Mab': {
     inherits: 'Almighty',
@@ -3326,6 +3497,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
     img: '/personas/Queen_Mab.webp',
+    description: 'DESCRIPTION',
   },
   "Queen's Necklace": {
     rare: true,
@@ -3352,6 +3524,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-5, 7-9',
     img: "/personas/Queen's_Necklace.webp",
+    description: 'DESCRIPTION',
   },
   Quetzalcoatl: {
     inherits: 'Wind',
@@ -3373,6 +3546,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [41, 46, 41, 43, 34],
     trait: 'Wind Bloodline',
     img: '/personas/Quetzalcoatl.webp',
+    description: 'DESCRIPTION',
   },
   'Raja Naga': {
     inherits: 'Electric',
@@ -3393,6 +3567,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [33, 37, 36, 35, 31],
     trait: 'Electric Bloodline',
     img: '/personas/Raja_Naga.webp',
+    description: 'DESCRIPTION',
   },
   Rakshasa: {
     inherits: 'Physical',
@@ -3417,6 +3592,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L5, 7-9',
     img: '/personas/Rakshasa.webp',
+    description: 'DESCRIPTION',
   },
   Rangda: {
     inherits: 'Curse',
@@ -3439,6 +3615,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
     img: '/personas/Rangda.webp',
+    description: 'DESCRIPTION',
   },
   Raphael: {
     inherits: 'Almighty',
@@ -3460,6 +3637,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [57, 45, 49, 55, 35],
     trait: 'Pinch Anchor',
     img: '/personas/Raphael.webp',
+    description: 'DESCRIPTION',
   },
   'Red Rider': {
     inherits: 'Psy',
@@ -3480,6 +3658,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [26, 27, 25, 29, 23],
     trait: 'Ailment Hunter',
     img: '/personas/Red_Rider.webp',
+    description: 'DESCRIPTION',
   },
   Regent: {
     rare: true,
@@ -3506,6 +3685,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus / Chemdah',
     floor: 'Any / L1-3, 5 & 6 / L1-4, 6 & 7',
     img: '/personas/Regent.webp',
+    description: 'DESCRIPTION',
   },
   'Saki Mitama': {
     inherits: 'Healing',
@@ -3525,6 +3705,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [4, 6, 5, 6, 4],
     trait: 'Internal Hypnosis',
     img: '/personas/Saki_Mitama.webp',
+    description: 'DESCRIPTION',
   },
   Sandalphon: {
     inherits: 'Bless',
@@ -3546,6 +3727,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Omen',
     max: true,
     img: '/personas/Sandalphon.webp',
+    description: 'DESCRIPTION',
   },
   Sandman: {
     inherits: 'Wind',
@@ -3569,6 +3751,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L1-3',
     img: '/personas/Sandman.webp',
+    description: 'DESCRIPTION',
   },
   Sarasvati: {
     inherits: 'Healing',
@@ -3592,6 +3775,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9. 12 (after Palace 7)',
     img: '/personas/Sarasvati.webp',
+    description: 'DESCRIPTION',
   },
   Satan: {
     inherits: 'Ice',
@@ -3614,6 +3798,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Cocytus',
     max: true,
     img: '/personas/Satan.webp',
+    description: 'DESCRIPTION',
   },
   Satanael: {
     special: true,
@@ -3637,6 +3822,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Pagan Allure',
     note: 'Only available on NG+',
     img: '/personas/Satanael.webp',
+    description: 'DESCRIPTION',
   },
   Scathach: {
     inherits: 'Wind',
@@ -3660,6 +3846,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L10-12',
     img: '/personas/Scathach.webp',
+    description: 'DESCRIPTION',
   },
   Seiryu: {
     inherits: 'Ice',
@@ -3680,6 +3867,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [38, 41, 43, 37, 34],
     trait: 'Relentless',
     img: '/personas/Seiryu.webp',
+    description: 'DESCRIPTION',
   },
   Setanta: {
     inherits: 'Physical',
@@ -3699,6 +3887,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [19, 16, 18, 13, 16],
     trait: 'Retaliating Body',
     img: '/personas/Setanta.webp',
+    description: 'DESCRIPTION',
   },
   Seth: {
     special: true,
@@ -3719,6 +3908,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [32, 35, 30, 35, 28],
     trait: 'Potent Hypnosis',
     img: '/personas/Seth.webp',
+    description: 'DESCRIPTION',
   },
   Shiisaa: {
     inherits: 'Electric',
@@ -3739,6 +3929,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [10, 11, 11, 11, 9],
     trait: 'Atomic Bloodline',
     img: '/personas/Shiisaa.webp',
+    description: 'DESCRIPTION',
   },
   'Shiki-Ouji': {
     inherits: 'Psy',
@@ -3762,6 +3953,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Shiki-Ouji.webp',
+    description: 'DESCRIPTION',
   },
   Shiva: {
     special: true,
@@ -3783,6 +3975,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [55, 54, 53, 53, 38],
     trait: 'Psychic Bloodline',
     img: '/personas/Shiva.webp',
+    description: 'DESCRIPTION',
   },
   Siegfried: {
     inherits: 'Physical',
@@ -3803,6 +3996,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [61, 43, 55, 55, 45],
     trait: 'Retaliating Body',
     img: '/personas/Siegfried.webp',
+    description: 'DESCRIPTION',
   },
   Silky: {
     inherits: 'Healing',
@@ -3823,6 +4017,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L2, 3, 5 & 6',
     img: '/personas/Silky.webp',
+    description: 'DESCRIPTION',
   },
   Skadi: {
     inherits: 'Ice',
@@ -3845,6 +4040,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 & 13 (before Palace 7) / L5 (after Palace 7)',
     img: '/personas/Skadi.webp',
+    description: 'DESCRIPTION',
   },
   Slime: {
     inherits: 'Curse',
@@ -3866,6 +4062,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1, 2, 3, 6',
     img: '/personas/Slime.webp',
+    description: 'DESCRIPTION',
   },
   Sraosha: {
     special: true,
@@ -3887,6 +4084,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [47, 56, 45, 56, 43],
     trait: 'Blessed Bloodline',
     img: '/personas/Sraosha.webp',
+    description: 'DESCRIPTION',
   },
   'Stone of Scone': {
     rare: true,
@@ -3913,6 +4111,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
     img: '/personas/Stone_of_Scone.webp',
+    description: 'DESCRIPTION',
   },
   Succubus: {
     inherits: 'Curse',
@@ -3934,6 +4133,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
     img: '/personas/Succubus.webp',
+    description: 'DESCRIPTION',
   },
   Sudama: {
     inherits: 'Psy',
@@ -3957,6 +4157,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Sudama.webp',
+    description: 'DESCRIPTION',
   },
   'Sui-Ki': {
     inherits: 'Ice',
@@ -3980,6 +4181,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L7-9',
     img: '/personas/Sui-Ki.webp',
+    description: 'DESCRIPTION',
   },
   Surt: {
     inherits: 'Fire',
@@ -4001,6 +4203,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [55, 54, 51, 50, 46],
     trait: 'Heated Bloodline',
     img: '/personas/Surt.webp',
+    description: 'DESCRIPTION',
   },
   Suzaku: {
     inherits: 'Nuclear',
@@ -4021,6 +4224,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [9, 12, 10, 15, 9],
     trait: 'Gluttonmouth',
     img: '/personas/Suzaku.webp',
+    description: 'DESCRIPTION',
   },
   'Take-Minakata': {
     inherits: 'Electric',
@@ -4044,6 +4248,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L7-9',
     img: '/personas/Take-Minakata.webp',
+    description: 'DESCRIPTION',
   },
   'Tam Lin': {
     special: true,
@@ -4065,6 +4270,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [21, 16, 18, 16, 17],
     trait: 'Gluttonmouth',
     img: '/personas/Tam_Lin.webp',
+    description: 'DESCRIPTION',
   },
   Thor: {
     inherits: 'Electric',
@@ -4087,6 +4293,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Thor.webp',
+    description: 'DESCRIPTION',
   },
   Thoth: {
     inherits: 'Nuclear',
@@ -4110,6 +4317,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L6, 7, 9-11',
     img: '/personas/Thoth.webp',
+    description: 'DESCRIPTION',
   },
   Throne: {
     inherits: 'Bless',
@@ -4132,6 +4340,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Throne.webp',
+    description: 'DESCRIPTION',
   },
   Thunderbird: {
     inherits: 'Electric',
@@ -4153,6 +4362,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [17, 24, 24, 26, 18],
     trait: 'Electric Bloodline',
     img: '/personas/Thunderbird.webp',
+    description: 'DESCRIPTION',
   },
   Titania: {
     inherits: 'Nuclear',
@@ -4175,6 +4385,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (after Palace 7)',
     img: '/personas/Titania.webp',
+    description: 'DESCRIPTION',
   },
   Trumpeter: {
     special: true,
@@ -4196,6 +4407,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [33, 42, 40, 38, 31],
     trait: 'Relentless',
     img: '/personas/Trumpeter.webp',
+    description: 'DESCRIPTION',
   },
   Unicorn: {
     inherits: 'Bless',
@@ -4219,6 +4431,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L1-4 (before Palace 7) / L1 & 2 (after Palace 7)',
     img: '/personas/Unicorn.webp',
+    description: 'DESCRIPTION',
   },
   Uriel: {
     inherits: 'Almighty',
@@ -4239,6 +4452,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [50, 54, 49, 55, 42],
     trait: 'Mouth of Savoring',
     img: '/personas/Uriel.webp',
+    description: 'DESCRIPTION',
   },
   Valkyrie: {
     inherits: 'Physical',
@@ -4261,6 +4475,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L3-5, 7-9 (before Palace 7) / L2-4 (after Palace 7)',
     img: '/personas/Valkyrie.webp',
+    description: 'DESCRIPTION',
   },
   Vasuki: {
     special: true,
@@ -4282,6 +4497,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [42, 45, 44, 42, 38],
     trait: 'Foul Stench',
     img: '/personas/Vasuki.webp',
+    description: 'DESCRIPTION',
   },
   Vishnu: {
     inherits: 'Almighty',
@@ -4304,6 +4520,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: "Vahana's Wings",
     max: true,
     img: '/personas/Vishnu.webp',
+    description: 'DESCRIPTION',
   },
   'Vohu Manah': {
     inherits: 'Almighty',
@@ -4325,6 +4542,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Positive Thoughts',
     max: true,
     img: '/personas/Vohu_Manah.webp',
+    description: 'DESCRIPTION',
   },
   'White Rider': {
     inherits: 'Curse',
@@ -4347,6 +4565,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [22, 21, 26, 27, 25],
     trait: 'Bloodstained Eyes',
     img: '/personas/White_Rider.webp',
+    description: 'DESCRIPTION',
   },
   Yaksini: {
     inherits: 'Ice',
@@ -4369,6 +4588,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L3-5, 7',
     img: '/personas/Yaksini.webp',
+    description: 'DESCRIPTION',
   },
   'Yamata-no-Orochi': {
     inherits: 'Ice',
@@ -4391,6 +4611,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Yamata-no-Orochi.webp',
+    description: 'DESCRIPTION',
   },
   Yatagarasu: {
     inherits: 'Fire',
@@ -4411,6 +4632,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 41, 30, 40, 32],
     trait: 'Potent Hypnosis',
     img: '/personas/Yatagarasu.webp',
+    description: 'DESCRIPTION',
   },
   Yoshitsune: {
     special: true,
@@ -4432,6 +4654,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [63, 52, 50, 54, 49],
     trait: 'Retaliating Body',
     img: '/personas/Yoshitsune.webp',
+    description: 'DESCRIPTION',
   },
   Yurlungur: {
     inherits: 'Electric',
@@ -4452,6 +4675,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [26, 29, 30, 27, 24],
     trait: 'Mouth of Savoring',
     img: '/personas/Yurlungur.webp',
+    description: 'DESCRIPTION',
   },
   'Zaou-Gongen': {
     inherits: 'Fire',
@@ -4473,6 +4697,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Undying Fury',
     max: true,
     img: '/personas/Zaou-Gongen.webp',
+    description: 'DESCRIPTION',
   },
   Zouchouten: {
     inherits: 'Electric',
@@ -4493,6 +4718,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [22, 19, 24, 18, 17],
     trait: 'Electric Bloodline',
     img: '/personas/Zouchouten.webp',
+    description: 'DESCRIPTION',
   },
   Ariadne: {
     inherits: 'Almighty',
@@ -4514,6 +4740,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Tag Team',
     dlc: true,
     img: '/personas/Ariadne.webp',
+    description: 'DESCRIPTION',
   },
   'Ariadne Picaro': {
     inherits: 'Almighty',
@@ -4536,6 +4763,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Tag Team',
     dlc: true,
     img: '/personas/Ariadne_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Asterius: {
     inherits: 'Almighty',
@@ -4557,6 +4785,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Frenzied Bull',
     dlc: true,
     img: '/personas/Asterius.webp',
+    description: 'DESCRIPTION',
   },
   'Asterius Picaro': {
     inherits: 'Almighty',
@@ -4579,6 +4808,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Frenzied Bull',
     dlc: true,
     img: '/personas/Asterius_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Athena: {
     inherits: 'Almighty',
@@ -4601,6 +4831,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Grace of the Olive',
     dlc: true,
     img: '/personas/Athena.webp',
+    description: 'DESCRIPTION',
   },
   'Athena Picaro': {
     inherits: 'Almighty',
@@ -4624,6 +4855,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Grace of the Olive',
     dlc: true,
     img: '/personas/Athena_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Izanagi: {
     inherits: 'Almighty',
@@ -4645,6 +4877,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'God Maker',
     dlc: true,
     img: '/personas/Izanagi.webp',
+    description: 'DESCRIPTION',
   },
   'Izanagi Picaro': {
     inherits: 'Almighty',
@@ -4667,6 +4900,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'God Maker',
     dlc: true,
     img: '/personas/Izanagi_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   'Izanagi-no-Okami': {
     special: true,
@@ -4690,6 +4924,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Country Maker',
     dlc: true,
     img: '/personas/Izanagi-no-Okami.webp',
+    description: 'DESCRIPTION',
   },
   'Izanagi-no-Okami Picaro': {
     special: true,
@@ -4714,6 +4949,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Country Maker',
     dlc: true,
     img: '/personas/Izanagi-no-Okami_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Kaguya: {
     inherits: 'Almighty',
@@ -4735,6 +4971,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Inviolable Beauty',
     dlc: true,
     img: '/personas/Kaguya.webp',
+    description: 'DESCRIPTION',
   },
   'Kaguya Picaro': {
     inherits: 'Almighty',
@@ -4757,6 +4994,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Inviolable Beauty',
     dlc: true,
     img: '/personas/Kaguya_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   'Magatsu-Izanagi': {
     inherits: 'Almighty',
@@ -4778,6 +5016,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hollow Jester',
     dlc: true,
     img: '/personas/Magatsu-Izanagi.webp',
+    description: 'DESCRIPTION',
   },
   'Magatsu-Izanagi Picaro': {
     inherits: 'Almighty',
@@ -4800,6 +5039,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hollow Jester',
     dlc: true,
     img: '/personas/Magatsu-Izanagi_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Messiah: {
     inherits: 'Almighty',
@@ -4822,6 +5062,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hallowed Spirit',
     dlc: true,
     img: '/personas/Messiah.webp',
+    description: 'DESCRIPTION',
   },
   'Messiah Picaro': {
     inherits: 'Almighty',
@@ -4845,6 +5086,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hallowed Spirit',
     dlc: true,
     img: '/personas/Messiah_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Orpheus: {
     inherits: 'Almighty',
@@ -4866,6 +5108,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus.webp',
+    description: 'DESCRIPTION',
   },
   'Orpheus F': {
     inherits: 'Almighty',
@@ -4887,6 +5130,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus_F.webp',
+    description: 'DESCRIPTION',
   },
   'Orpheus F Picaro': {
     inherits: 'Almighty',
@@ -4909,6 +5153,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus_F_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   'Orpheus Picaro': {
     inherits: 'Almighty',
@@ -4931,6 +5176,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Raoul: {
     inherits: 'Almighty',
@@ -4953,6 +5199,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hazy Presence',
     dlc: true,
     img: '/personas/Raoul.webp',
+    description: 'DESCRIPTION',
   },
   Thanatos: {
     inherits: 'Almighty',
@@ -4974,6 +5221,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Iron Heart',
     dlc: true,
     img: '/personas/Thanatos.webp',
+    description: 'DESCRIPTION',
   },
   'Thanatos Picaro': {
     inherits: 'Almighty',
@@ -4996,6 +5244,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Iron Heart',
     dlc: true,
     img: '/personas/Thanatos_Picaro.webp',
+    description: 'DESCRIPTION',
   },
   Tsukiyomi: {
     inherits: 'Almighty',
@@ -5017,6 +5266,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Bolstering Force',
     dlc: true,
     img: '/personas/Tsukiyomi.webp',
+    description: 'DESCRIPTION',
   },
   'Tsukiyomi Picaro': {
     inherits: 'Almighty',
@@ -5039,5 +5289,6 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Bolstering Force',
     dlc: true,
     img: '/personas/Tsukiyomi_Picaro.webp',
+    description: 'DESCRIPTION',
   },
 };

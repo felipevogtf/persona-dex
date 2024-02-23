@@ -61,4 +61,5 @@ export interface PersonaData {
   area?: string; //path name
   floor?: string; //path level
   img: string;
+  description: string;
 }

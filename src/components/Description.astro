@@ -1,0 +1,93 @@
+---
+interface Props {
+  description: string;
+}
+
+const { description } = Astro.props;
+---
+
+<section class="container">
+  <div class="container__label">
+    <div class="container__label__content">
+      <span>Description</span>
+    </div>
+  </div>
+  <div class="container__body">
+    <div class="container__body__content"><span>{description}</span></div>
+  </div>
+</section>
+
+<style>
+  .container {
+    position: relative;
+  }
+
+  .container__label {
+    margin-left: 20px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: white;
+
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+
+    transform: skew(-10deg, 1deg);
+  }
+
+  .container__label__content {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: white;
+    transform: skew(3deg, 0deg);
+    background-color: black;
+
+    color: white;
+    padding: 10px;
+  }
+
+  .container__label__content span {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .container__body {
+    position: absolute;
+    box-sizing: border-box;
+    background-color: white;
+
+    margin-top: 40px;
+    padding: 5px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: skew(10deg, 1deg);
+  }
+
+  .container__body__content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: black;
+    transform: skew(-3deg, 0deg);
+    color: white;
+    padding: 50px 100px;
+    text-wrap: pretty;
+  }
+
+  .container__body__content span {
+    display: block;
+    transform: skew(-7deg, 0deg);
+    font-size: large;
+  }
+</style>
