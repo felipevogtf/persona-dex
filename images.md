@@ -18,429 +18,196 @@
 - [x] Atavaka
 - [x] Atropos
 - [x] Attis
-- [ ] Baal
-- [ ] Baphomet
-- [ ] Barong
-- [ ] Beelzebub
-- [ ] Belial
-- [ ] Belphegor
-- [ ] Berith
-- [ ] Bicorn
-- [ ] Bishamonten
-- [ ] Black Frost
-- [ ] Black Ooze
-- [ ] Black Rider
-- [ ] Bugs
-- [ ] Byakhee
-- [ ] Byakko
-- [ ] Cait Sith
-- [ ] Cerberus
-- [ ] Chernobog
-- [ ] Chi You
-- [ ] Chimera
-- [ ] Choronzon
-- [ ] Clotho
-- [ ] Crystal Skull
-- [ ] Cu Chulainn
-- [ ] Cybele
-- [ ] Daisoujou
-- [ ] Dakini
-- [ ] Decarabia
-- [ ] Dionysus
-- [ ] Dominion
-- [ ] Eligor
-- [ ] Emperor's Amulet
-- [ ] Fafnir
-- [ ] Flauros
-- [ ] Forneus
-- [ ] Fortuna
-- [ ] Futsunushi
-- [ ] Fuu-Ki
-- [ ] Gabriel
-- [ ] Ganesha
-- [ ] Garuda
-- [ ] Genbu
-- [ ] Girimehkala
-- [ ] Hanuman
-- [ ] Hariti
+- [x] Baal
+- [x] Baphomet
+- [x] Barong
+- [x] Beelzebub
+- [x] Belial
+- [x] Belphegor
+- [x] Berith
+- [x] Bicorn
+- [x] Bishamonten
+- [x] Black Frost
+- [x] Black Ooze
+- [x] Black Rider
+- [x] Bugs
+- [x] Byakhee
+- [x] Byakko
+- [x] Cait Sith
+- [x] Cerberus
+- [x] Chernobog
+- [x] Chi You
+- [x] Chimera
+- [x] Choronzon
+- [x] Clotho
+- [x] Crystal Skull
+- [x] Cu Chulainn
+- [x] Cybele
+- [x] Daisoujou
+- [x] Dakini
+- [x] Decarabia
+- [x] Dionysus
+- [x] Dominion
+- [x] Eligor
+- [x] Emperor's Amulet
+- [x] Fafnir
+- [x] Flauros
+- [x] Forneus
+- [x] Fortuna
+- [x] Futsunushi
+- [x] Fuu-Ki
+- [x] Gabriel
+- [x] Ganesha
+- [x] Garuda
+- [x] Genbu
+- [x] Girimehkala
+- [x] Hanuman
+- [x] Hariti
 - [ ] Hastur
-- [ ] Hecatoncheires
-- [ ] Hell Biker
-- [ ] High Pixie
-- [ ] Hope Diamond
-- [ ] Horus
-- [ ] Hua Po
-- [ ] Incubus
-- [ ] Inugami
-- [ ] Ippon-Datara
-- [ ] Ishtar
-- [ ] Isis
-- [ ] Jack Frost
-- [ ] Jack-o'-Lantern
-- [ ] Jatayu
-- [ ] Jikokuten
-- [ ] Kaiwan
-- [ ] Kali
-- [ ] Kelpie
-- [ ] Kikuri-Hime
-- [ ] Kin-Ki
-- [ ] King Frost
-- [ ] Kodama
-- [ ] Koh-i-Noor
-- [ ] Kohryu
-- [ ] Koppa Tengu
-- [ ] Koropokkuru
-- [ ] Koumokuten
-- [ ] Kumbhanda
-- [ ] Kurama Tengu
-- [ ] Kushinada
-- [ ] Kushi Mitama
-- [ ] Lachesis
-- [ ] Lakshmi
-- [ ] Lamia
-- [ ] Leanan Sidhe
-- [ ] Legion
-- [ ] Lilim
-- [ ] Lilith
-- [ ] Loa
-- [ ] Lucifer
-- [ ] Macabre
-- [ ] Mada
-- [ ] Makami
-- [ ] Mandrake
-- [ ] Mara
-- [ ] Maria
-- [ ] Matador
-- [ ] Melchizedek
-- [ ] Metatron
-- [ ] Michael
-- [ ] Mishaguji
-- [ ] Mitra
-- [ ] Mithras
-- [ ] Mokoi
-- [ ] Moloch
-- [ ] Mot
-- [ ] Mother Harlot
-- [ ] Mothman
-- [ ] Naga
-- [ ] Narcissus
-- [ ] Nebiros
-- [ ] Neko Shogun
-- [ ] Nekomata
-- [ ] Nigi Mitama
-- [ ] Norn
-- [ ] Nue
-- [ ] Obariyon
-- [ ] Oberon
-- [ ] Odin
-- [ ] Okuninushi
-- [ ] Ongyo-Ki
-- [ ] Oni
-- [ ] Onmoraki
-- [ ] Orichalcum
-- [ ] Orlov
-- [ ] Orobas
-- [ ] Orthrus
-- [ ] Ose
-- [ ] Pale Rider
-- [ ] Parvati
-- [ ] Pazuzu
-- [ ] Phoenix
-- [ ] Pisaca
-- [ ] Pixie
-- [ ] Power
-- [ ] Principality
-- [ ] Queen Mab
-- [ ] Queen's Necklace
-- [ ] Quetzalcoatl
-- [ ] Raja Naga
-- [ ] Rakshasa
-- [ ] Rangda
-- [ ] Raphael
-- [ ] Red Rider
-- [ ] Regent
-- [ ] Saki Mitama
-- [ ] Sandalphon
-- [ ] Sandman
-- [ ] Sarasvati
-- [ ] Satan
-- [ ] Satanael
-- [ ] Scathach
-- [ ] Seiryu
-- [ ] Setanta
-- [ ] Seth
-- [ ] Shiisaa
-- [ ] Shiki-Ouji
-- [ ] Shiva
-- [ ] Siegfried
-- [ ] Silky
-- [ ] Skadi
-- [ ] Slime
-- [ ] Sraosha
-- [ ] Stone of Scone
-- [ ] Succubus
-- [ ] Sudama
-- [ ] Sui-Ki
-- [ ] Surt
-- [ ] Suzaku
-- [ ] Take-Minakata
-- [ ] Tam Lin
-- [ ] Thor
-- [ ] Thoth
-- [ ] Throne
-- [ ] Thunderbird
-- [ ] Titania
-- [ ] Trumpeter
-- [ ] Unicorn
-- [ ] Uriel
-- [ ] Valkyrie
-- [ ] Vasuki
-- [ ] Vishnu
-- [ ] Vohu Manah
-- [ ] White Rider
-- [ ] Yaksini
-- [ ] Yamata-no-Orochi
-- [ ] Yatagarasu
-- [ ] Yoshitsune
-- [ ] Yurlungur
-- [ ] Zaou-Gongen
-- [ ] Zouchouten
-- [ ] Ariadne
+- [x] Hecatoncheires
+- [x] Hell Biker
+- [x] High Pixie
+- [x] Hope Diamond
+- [x] Horus
+- [x] Hua Po
+- [x] Incubus
+- [x] Inugami
+- [x] Ippon-Datara
+- [x] Ishtar
+- [x] Isis
+- [x] Jack Frost
+- [x] Jack-o'-Lantern
+- [x] Jatayu
+- [x] Jikokuten
+- [x] Kaiwan
+- [x] Kali
+- [x] Kelpie
+- [x] Kikuri-Hime
+- [x] Kin-Ki
+- [x] King Frost
+- [x] Kodama
+- [x] Koh-i-Noor
+- [x] Kohryu
+- [x] Koppa Tengu
+- [x] Koropokkuru
+- [x] Koumokuten
+- [x] Kumbhanda
+- [x] Kurama Tengu
+- [x] Kushinada
+- [x] Kushi Mitama
+- [x] Lachesis
+- [x] Lakshmi
+- [x] Lamia
+- [x] Leanan Sidhe
+- [x] Legion
+- [x] Lilim
+- [x] Lilith
+- [x] Loa
+- [x] Lucifer
+- [x] Macabre
+- [x] Mada
+- [x] Makami
+- [x] Mandrake
+- [x] Mara
+- [x] Maria
+- [x] Matador
+- [x] Melchizedek
+- [x] Metatron
+- [x] Michael
+- [x] Mishaguji
+- [x] Mitra
+- [x] Mithras
+- [x] Mokoi
+- [x] Moloch
+- [x] Mot
+- [x] Mother Harlot
+- [x] Mothman
+- [x] Naga
+- [x] Narcissus
+- [x] Nebiros
+- [x] Neko Shogun
+- [x] Nekomata
+- [x] Nigi Mitama
+- [x] Norn
+- [x] Nue
+- [x] Obariyon
+- [x] Oberon
+- [x] Odin
+- [x] Okuninushi
+- [x] Ongyo-Ki
+- [x] Oni
+- [x] Onmoraki
+- [x] Orichalcum
+- [x] Orlov
+- [x] Orobas
+- [x] Orthrus
+- [x] Ose
+- [x] Pale Rider
+- [x] Parvati
+- [x] Pazuzu
+- [x] Phoenix
+- [x] Pisaca
+- [x] Pixie
+- [x] Power
+- [x] Principality
+- [x] Queen Mab
+- [x] Queen's Necklace
+- [x] Quetzalcoatl
+- [x] Raja Naga
+- [x] Rakshasa
+- [x] Rangda
+- [x] Raphael
+- [x] Red Rider
+- [x] Regent
+- [x] Saki Mitama
+- [x] Sandalphon
+- [x] Sandman
+- [x] Sarasvati
+- [x] Satan
+- [x] Satanael
+- [x] Scathach
+- [x] Seiryu
+- [x] Setanta
+- [x] Seth
+- [x] Shiisaa
+- [x] Shiki-Ouji
+- [x] Shiva
+- [x] Siegfried
+- [x] Silky
+- [x] Skadi
+- [x] Slime
+- [x] Sraosha
+- [x] Stone of Scone
+- [x] Succubus
+- [x] Sudama
+- [x] Sui-Ki
+- [x] Surt
+- [x] Suzaku
+- [x] Take-Minakata
+- [x] Tam Lin
+- [x] Thor
+- [x] Thoth
+- [x] Throne
+- [x] Thunderbird
+- [x] Titania
+- [x] Trumpeter
+- [x] Unicorn
+- [x] Uriel
+- [x] Valkyrie
+- [x] Vasuki
+- [x] Vishnu
+- [x] Vohu Manah
+- [x] White Rider
+- [x] Yaksini
+- [x] Yamata-no-Orochi
+- [x] Yatagarasu
+- [x] Yoshitsune
+- [x] Yurlungur
+- [x] Zaou-Gongen
+- [x] Zouchouten
+- [x] Ariadne
 - [ ] Ariadne Picaro
-- [ ] Asterius
-- [ ] Asterius Picaro
-- [ ] Athena
-- [ ] Athena Picaro
-- [ ] Izanagi
-- [ ] Izanagi Picaro
-- [ ] Izanagi-no-Okami
-- [ ] Izanagi-no-Okami Picaro
-- [ ] Kaguya
-- [ ] Kaguya Picaro
-- [ ] Magatsu-Izanagi
-- [ ] Magatsu-Izanagi Picaro
-- [ ] Messiah
-- [ ] Messiah Picaro
-- [ ] Orpheus
-- [ ] Orpheus F
-- [ ] Orpheus F Picaro
-- [ ] Orpheus Picaro
-- [ ] Raoul
-- [ ] Thanatos
-- [ ] Thanatos Picaro
-- [ ] Tsukiyomi
-- [ ] Tsukiyomi Picaro
-- [ ] 00:30:20 [200] / 25ms
-- [ ] Abaddon
-- [ ] Agathion
-- [ ] Alice
-- [ ] Alilat
-- [ ] Ame-no-Uzume
-- [ ] Ananta
-- [ ] Andras
-- [ ] Angel
-- [ ] Anubis
-- [ ] Anzu
-- [ ] Apsaras
-- [ ] Ara Mitama
-- [ ] Arahabaki
-- [ ] Archangel
-- [ ] Ardha
-- [ ] Arsène
-- [ ] Asura
-- [ ] Atavaka
-- [ ] Atropos
-- [ ] Attis
-- [ ] Baal
-- [ ] Baphomet
-- [ ] Barong
-- [ ] Beelzebub
-- [ ] Belial
-- [ ] Belphegor
-- [ ] Berith
-- [ ] Bicorn
-- [ ] Bishamonten
-- [ ] Black Frost
-- [ ] Black Ooze
-- [ ] Black Rider
-- [ ] Bugs
-- [ ] Byakhee
-- [ ] Byakko
-- [ ] Cait Sith
-- [ ] Cerberus
-- [ ] Chernobog
-- [ ] Chi You
-- [ ] Chimera
-- [ ] Choronzon
-- [ ] Clotho
-- [ ] Crystal Skull
-- [ ] Cu Chulainn
-- [ ] Cybele
-- [ ] Daisoujou
-- [ ] Dakini
-- [ ] Decarabia
-- [ ] Dionysus
-- [ ] Dominion
-- [ ] Eligor
-- [ ] Emperor's Amulet
-- [ ] Fafnir
-- [ ] Flauros
-- [ ] Forneus
-- [ ] Fortuna
-- [ ] Futsunushi
-- [ ] Fuu-Ki
-- [ ] Gabriel
-- [ ] Ganesha
-- [ ] Garuda
-- [ ] Genbu
-- [ ] Girimehkala
-- [ ] Hanuman
-- [ ] Hariti
-- [ ] Hastur
-- [ ] Hecatoncheires
-- [ ] Hell Biker
-- [ ] High Pixie
-- [ ] Hope Diamond
-- [ ] Horus
-- [ ] Hua Po
-- [ ] Incubus
-- [ ] Inugami
-- [ ] Ippon-Datara
-- [ ] Ishtar
-- [ ] Isis
-- [ ] Jack Frost
-- [ ] Jack-o'-Lantern
-- [ ] Jatayu
-- [ ] Jikokuten
-- [ ] Kaiwan
-- [ ] Kali
-- [ ] Kelpie
-- [ ] Kikuri-Hime
-- [ ] Kin-Ki
-- [ ] King Frost
-- [ ] Kodama
-- [ ] Koh-i-Noor
-- [ ] Kohryu
-- [ ] Koppa Tengu
-- [ ] Koropokkuru
-- [ ] Koumokuten
-- [ ] Kumbhanda
-- [ ] Kurama Tengu
-- [ ] Kushinada
-- [ ] Kushi Mitama
-- [ ] Lachesis
-- [ ] Lakshmi
-- [ ] Lamia
-- [ ] Leanan Sidhe
-- [ ] Legion
-- [ ] Lilim
-- [ ] Lilith
-- [ ] Loa
-- [ ] Lucifer
-- [ ] Macabre
-- [ ] Mada
-- [ ] Makami
-- [ ] Mandrake
-- [ ] Mara
-- [ ] Maria
-- [ ] Matador
-- [ ] Melchizedek
-- [ ] Metatron
-- [ ] Michael
-- [ ] Mishaguji
-- [ ] Mitra
-- [ ] Mithras
-- [ ] Mokoi
-- [ ] Moloch
-- [ ] Mot
-- [ ] Mother Harlot
-- [ ] Mothman
-- [ ] Naga
-- [ ] Narcissus
-- [ ] Nebiros
-- [ ] Neko Shogun
-- [ ] Nekomata
-- [ ] Nigi Mitama
-- [ ] Norn
-- [ ] Nue
-- [ ] Obariyon
-- [ ] Oberon
-- [ ] Odin
-- [ ] Okuninushi
-- [ ] Ongyo-Ki
-- [ ] Oni
-- [ ] Onmoraki
-- [ ] Orichalcum
-- [ ] Orlov
-- [ ] Orobas
-- [ ] Orthrus
-- [ ] Ose
-- [ ] Pale Rider
-- [ ] Parvati
-- [ ] Pazuzu
-- [ ] Phoenix
-- [ ] Pisaca
-- [ ] Pixie
-- [ ] Power
-- [ ] Principality
-- [ ] Queen Mab
-- [ ] Queen's Necklace
-- [ ] Quetzalcoatl
-- [ ] Raja Naga
-- [ ] Rakshasa
-- [ ] Rangda
-- [ ] Raphael
-- [ ] Red Rider
-- [ ] Regent
-- [ ] Saki Mitama
-- [ ] Sandalphon
-- [ ] Sandman
-- [ ] Sarasvati
-- [ ] Satan
-- [ ] Satanael
-- [ ] Scathach
-- [ ] Seiryu
-- [ ] Setanta
-- [ ] Seth
-- [ ] Shiisaa
-- [ ] Shiki-Ouji
-- [ ] Shiva
-- [ ] Siegfried
-- [ ] Silky
-- [ ] Skadi
-- [ ] Slime
-- [ ] Sraosha
-- [ ] Stone of Scone
-- [ ] Succubus
-- [ ] Sudama
-- [ ] Sui-Ki
-- [ ] Surt
-- [ ] Suzaku
-- [ ] Take-Minakata
-- [ ] Tam Lin
-- [ ] Thor
-- [ ] Thoth
-- [ ] Throne
-- [ ] Thunderbird
-- [ ] Titania
-- [ ] Trumpeter
-- [ ] Unicorn
-- [ ] Uriel
-- [ ] Valkyrie
-- [ ] Vasuki
-- [ ] Vishnu
-- [ ] Vohu Manah
-- [ ] White Rider
-- [ ] Yaksini
-- [ ] Yamata-no-Orochi
-- [ ] Yatagarasu
-- [ ] Yoshitsune
-- [ ] Yurlungur
-- [ ] Zaou-Gongen
-- [ ] Zouchouten
-- [ ] Ariadne
-- [ ] Ariadne Picaro
-- [ ] Asterius
+- [x] Asterius
 - [ ] Asterius Picaro
 - [ ] Athena
 - [ ] Athena Picaro
