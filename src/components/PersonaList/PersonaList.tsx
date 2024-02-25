@@ -61,7 +61,7 @@ export function PersonaList({ data }: PersonaListProps) {
                 alt={key}
                 loading="lazy"
                 style={{
-                  boxsizing: 'border-box',
+                  boxSizing: 'border-box',
                   maxWidth: '100%',
                   height: '200px',
                   objectFit: 'contain',
