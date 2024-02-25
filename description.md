@@ -18,92 +18,92 @@
 - [x] Atavaka
 - [x] Atropos
 - [x] Attis
-- [] Baal
-- [] Baphomet
-- [] Barong
-- [] Beelzebub
-- [] Belial
-- [] Belphegor
-- [] Berith
-- [] Bicorn
-- [] Bishamonten
-- [] Black Frost
-- [] Black Ooze
-- [] Black Rider
-- [] Bugs
-- [] Byakhee
-- [] Byakko
-- [] Cait Sith
-- [] Cerberus
-- [] Chernobog
-- [] Chi You
-- [] Chimera
-- [] Choronzon
-- [] Clotho
-- [] Crystal Skull
-- [] Cu Chulainn
-- [] Cybele
-- [] Daisoujou
-- [] Dakini
-- [] Decarabia
-- [] Dionysus
-- [] Dominion
-- [] Eligor
-- [] Emperor's Amulet
-- [] Fafnir
-- [] Flauros
-- [] Forneus
-- [] Fortuna
-- [] Futsunushi
-- [] Fuu-Ki
-- [] Gabriel
-- [] Ganesha
-- [] Garuda
-- [] Genbu
-- [] Girimehkala
-- [] Hanuman
-- [] Hariti
-- [] Hastur
-- [] Hecatoncheires
-- [] Hell Biker
-- [] High Pixie
-- [] Hope Diamond
-- [] Horus
-- [] Hua Po
-- [] Incubus
-- [] Inugami
-- [] Ippon-Datara
-- [] Ishtar
-- [] Isis
-- [] Jack Frost
-- [] Jack-o'-Lantern
-- [] Jatayu
-- [] Jikokuten
-- [] Kaiwan
-- [] Kali
-- [] Kelpie
-- [] Kikuri-Hime
-- [] Kin-Ki
-- [] King Frost
-- [] Kodama
-- [] Koh-i-Noor
-- [] Kohryu
-- [] Koppa Tengu
-- [] Koropokkuru
-- [] Koumokuten
-- [] Kumbhanda
-- [] Kurama Tengu
-- [] Kushinada
-- [] Kushi Mitama
-- [] Lachesis
-- [] Lakshmi
-- [] Lamia
-- [] Leanan Sidhe
-- [] Legion
-- [] Lilim
-- [] Lilith
-- [] Loa
-- [] Lucifer
+- [x] Baal
+- [x] Baphomet
+- [x] Barong
+- [x] Beelzebub
+- [x] Belial
+- [x] Belphegor
+- [x] Berith
+- [x] Bicorn
+- [x] Bishamonten
+- [x] Black Frost
+- [x] Black Ooze
+- [x] Black Rider
+- [x] Bugs
+- [x] Byakhee
+- [x] Byakko
+- [x] Cait Sith
+- [x] Cerberus
+- [x] Chernobog
+- [x] Chi You
+- [x] Chimera
+- [x] Choronzon
+- [x] Clotho
+- [x] Crystal Skull
+- [x] Cu Chulainn
+- [x] Cybele
+- [x] Daisoujou
+- [x] Dakini
+- [x] Decarabia
+- [x] Dionysus
+- [x] Dominion
+- [x] Eligor
+- [x] Emperor's Amulet
+- [x] Fafnir
+- [x] Flauros
+- [x] Forneus
+- [x] Fortuna
+- [x] Futsunushi
+- [x] Fuu-Ki
+- [x] Gabriel
+- [x] Ganesha
+- [x] Garuda
+- [x] Genbu
+- [x] Girimehkala
+- [x] Hanuman
+- [x] Hariti
+- [x] Hastur
+- [x] Hecatoncheires
+- [x] Hell Biker
+- [x] High Pixie
+- [x] Hope Diamond
+- [x] Horus
+- [x] Hua Po
+- [x] Incubus
+- [x] Inugami
+- [x] Ippon-Datara
+- [x] Ishtar
+- [x] Isis
+- [x] Jack Frost
+- [x] Jack-o'-Lantern
+- [x] Jatayu
+- [x] Jikokuten
+- [x] Kaiwan
+- [x] Kali
+- [x] Kelpie
+- [x] Kikuri-Hime
+- [x] Kin-Ki
+- [x] King Frost
+- [x] Kodama
+- [x] Koh-i-Noor
+- [x] Kohryu
+- [x] Koppa Tengu
+- [x] Koropokkuru
+- [x] Koumokuten
+- [x] Kumbhanda
+- [x] Kurama Tengu
+- [x] Kushinada
+- [x] Kushi Mitama
+- [x] Lachesis
+- [x] Lakshmi
+- [x] Lamia
+- [x] Leanan Sidhe
+- [x] Legion
+- [x] Lilim
+- [x] Lilith
+- [x] Loa
+- [x] Lucifer
 - [] Macabre
 - [] Mada
 - [] Makami

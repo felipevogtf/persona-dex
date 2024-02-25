@@ -489,7 +489,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [54, 58, 53, 47, 41],
     trait: 'Wind Bloodline',
     img: '/personas/Baal.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The chief Semitic god who governs over fertility. He is the god of Canaan and brother and consort to the goddess Anat, who saved him from Mot.',
   },
   Baphomet: {
     inherits: 'Almighty',
@@ -513,7 +514,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
     img: '/personas/Baphomet.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A goat-headed demon that is worshiped in Black Sabbaths. His name can be used as a catch-all term for demons in general. He would become an object of worship for witches.',
   },
   Barong: {
     inherits: 'Electric',
@@ -536,7 +538,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11 & 12 (after Palace 7)',
     img: '/personas/Barong.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A mystical creature in Balinese lore, it represents good and is Rangda's eternal rival. Even if defeated, it will be reborn. The result is a never-ending struggle..",
   },
   Beelzebub: {
     inherits: 'Curse',
@@ -559,7 +562,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: "Mother's Lament",
     max: true,
     img: '/personas/Beelzebub.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Demonic Lord of the Flies whose insect minions carry souls for him to control. He is mentioned in the Bible as a leader of evil spirits and is seen as a powerful demon.',
   },
   Belial: {
     inherits: 'Curse',
@@ -581,7 +585,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [52, 53, 51, 48, 49],
     trait: 'Bloodstained Eyes',
     img: '/personas/Belial.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia. He led Sodom and Gomorrah to ruin and persecuted Jesus. He grants high social status to those who summon him.',
   },
   Belphegor: {
     inherits: 'Ice',
@@ -604,7 +609,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L6-8, 10',
     img: '/personas/Belphegor.webp',
-    description: 'DESCRIPTION',
+    description:
+      "Demonic governor of the deadly sin of sloth. He also excels at invention and discovery. May derive from Ba'al Pe'or, Syrian god of abundant crops.",
   },
   Berith: {
     inherits: 'Physical',
@@ -626,7 +632,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L5 & 6',
     img: '/personas/Berith.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of Goetia. Known as the Duke of Hell, he rides a gigantic horse and burns those without manners.',
   },
   Bicorn: {
     inherits: 'Wind',
@@ -648,7 +655,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L1 & 2',
     img: '/personas/Bicorn.webp',
-    description: 'DESCRIPTION',
+    description:
+      "An evil creature with two curving horns. It represents impurity, unlike the Unicorn. Said to be derived from Re'em in the Bible. Another legend says that it feeds off of disloyal husbands.",
   },
   Bishamonten: {
     inherits: 'Nuclear',
@@ -670,7 +678,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [51, 37, 42, 44, 34],
     trait: 'Savior Bloodline',
     img: '/personas/Bishamonten.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Also known as Tamonten and Vaishravana in Buddhist lore, he is the strongest of the Heavenly Kings. He protects the North and is the god of war.',
   },
   'Black Frost': {
     special: true,
@@ -692,7 +701,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [44, 46, 41, 42, 35],
     trait: 'Frigid Bloodline',
     img: '/personas/Black_Frost.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Jack Frost that yearned for evil. This powerful demon is born when a cute Jack Frost remembers its nature as a demon.',
   },
   'Black Ooze': {
     inherits: 'Curse',
@@ -716,7 +726,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4, 6',
     img: '/personas/Black_Ooze.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A mass of malevolent intent and emotion that failed to become a true demon. All it does is eat prey and grow.',
   },
   'Black Rider': {
     inherits: 'Curse',
@@ -738,7 +749,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [36, 42, 34, 42, 30],
     trait: 'Gloomy Child',
     img: '/personas/Black_Rider.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Four Horsemen of the Apocalypse, he rides a black horse and carries scales. He brings famine and has the right to end lives through suffering.',
   },
   Bugs: {
     special: true,
@@ -760,7 +772,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 33, 30, 32, 24],
     trait: 'Potent Hypnosis',
     img: '/personas/Bugs.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Welsh creature commonly known as "Bugbear" or the "Boogeyman." Its existence is often used by mothers to scare children into behaving.',
   },
   Byakhee: {
     inherits: 'Fire',
@@ -783,7 +796,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Heated Bloodline',
     note: 'Only available after 1/12',
     img: '/personas/Byakhee.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A malformed, winged servant of the Cthulhu Mythos' cosmic god Hastur. They can fly even in the vacuum of space and it's said that if you can summon one, it will carry you wherever you wish.",
   },
   Byakko: {
     inherits: 'Ice',
@@ -805,7 +819,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 28, 30, 32, 17],
     trait: 'Retaliating Body',
     img: '/personas/Byakko.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Ssu-Ling, celestial creatures of Chinese myth. It represents the direction west, the season of autumn, and the element of metal. He is believed to be the king of all beasts.',
   },
   'Cait Sith': {
     inherits: 'Ailment',
@@ -826,7 +841,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [6, 4, 4, 5, 3],
     trait: 'Thermal Conduct',
     img: '/personas/Cait_Sith.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A fae beast from the Scottish highlands. Their kingdoms are in tree hollows or abandoned houses. Dog-sized, with vivid green eyes. Some live with humans, as they understand our speech.',
   },
   Cerberus: {
     inherits: 'Fire',
@@ -849,7 +865,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
     img: '/personas/Cerberus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The guardian hound who prevents anyone from entering or exiting the underworld in Greek lore. It was born from Typhon and Echidna, and is the older brother of Orthrus.',
   },
   Chernobog: {
     inherits: 'Ailment',
@@ -873,7 +890,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Chernobog.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A cursed god of death, evil, and the night in Slavic lore. His name means "Black God," and he is the counterpart of the "White God," Belobog. Despite being feared, he was also worshipped.',
   },
   'Chi You': {
     special: true,
@@ -896,7 +914,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [56, 57, 54, 53, 51],
     trait: "Chi You's Blessing",
     img: '/personas/Chi_You.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Chinese god of war, he is said to have invented many weapons. He and his followers rebelled against the Yellow Emperor, Huang Di, but were ultimately defeated.',
   },
   Chimera: {
     inherits: 'Physical',
@@ -919,7 +938,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Foul Stench',
     note: 'Only available after 1/12',
     img: '/personas/Chimera.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Part lion, part goat and part snake, this creature originally represented the seasons. In Greek mythology, it was viewed as a violent monster. Born of Typhon and Echidna.',
   },
   Choronzon: {
     inherits: 'Curse',
@@ -943,7 +963,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-4',
     img: '/personas/Choronzon.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A demon summoned by a sorcerer named Crowley at the beginning of the 20th century. He prevents those from attempting to reach enlightenment.',
   },
   Clotho: {
     inherits: 'Healing',
@@ -965,7 +986,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [14, 19, 18, 20, 17],
     trait: 'Relief Bloodline',
     img: '/personas/Clotho.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The youngest of the three Moirae Sisters of Greek legend. She spins the threads of life with her spindle.',
   },
   'Crystal Skull': {
     rare: true,
@@ -992,7 +1014,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Sheriruth / Da'at",
     floor: 'L7-9. 11-13 (after Palace 7) / All',
     img: '/personas/Crystal_Skull.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An ancient Out-Of-Place-Artifact found in Central and South America. It is said that if you collect 13 of them in one spot, the truth of the universe will be revealed.',
   },
   'Cu Chulainn': {
     inherits: 'Almighty',
@@ -1014,7 +1037,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [55, 44, 46, 48, 42],
     trait: 'Potent Hypnosis',
     img: '/personas/Cu_Chulainn.webp',
-    description: 'DESCRIPTION',
+    description: `A hero in Celtic folklore. He was called Setanta until he earned the name, "Culann's Hound." There are many tales of his adventures. He received his spear, Gae Bolg, from his mentor, Scathach.`,
   },
   Cybele: {
     inherits: 'Healing',
@@ -1036,7 +1059,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Linked Bloodline',
     max: true,
     img: '/personas/Cybele.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The Phrygian mother goddess of the earth, she is often depicted with wild animals, and lions in particular. She had her priest, Attis, as a lover, but drove him insane when he was forced to marry another.',
   },
   Daisoujou: {
     inherits: 'Bless',
@@ -1057,7 +1081,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [21, 33, 24, 24, 25],
     trait: 'Draining Mouth',
     img: '/personas/Daisoujou.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A monk who died while fasting, his spiritual power allows his body to exist without rotting. It is said that he will appear before people on the day of salvation.',
   },
   Dakini: {
     inherits: 'Physical',
@@ -1081,7 +1106,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9 (after Palace 7)',
     img: '/personas/Dakini.webp',
-    description: 'DESCRIPTION',
+    description: `Hindu deities of passion and relations. They are Kali's attendants. They eat human flesh and gather at graveyards and crematories each night. Their name means "sky dancer."`,
   },
   Decarabia: {
     inherits: 'Fire',
@@ -1105,7 +1130,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L3, 4, 6-8',
     img: '/personas/Decarabia.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia, this demon appears as a pentacle. Keeper of jewels and herbal lore, Decarabia is said to have the ability to shape-shift at will.',
   },
   Dionysus: {
     inherits: 'Ailment',
@@ -1127,7 +1153,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [42, 48, 44, 42, 44],
     trait: 'Pinch Anchor',
     img: '/personas/Dionysus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The Greek god of wine and theater. He was originally a god of life protecting the mountains of Thrace. He taught humans how to make wine.',
   },
   Dominion: {
     inherits: 'Bless',
@@ -1151,7 +1178,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Dominion.webp',
-    description: 'DESCRIPTION',
+    description: `The fourth of the nine orders of angels. Their duty is to oversee the other angels. Their actions are the manifestation of God's will.`,
   },
   Eligor: {
     inherits: 'Fire',
@@ -1174,7 +1201,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L3 & 4',
     img: '/personas/Eligor.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia. He looks like a knight and has the power to see things to come. He also knows much about war.',
   },
   "Emperor's Amulet": {
     rare: true,
@@ -1201,7 +1229,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9, 11-13 (after Palace 7)',
     img: "/personas/Emperor's_Amulet.webp",
-    description: 'DESCRIPTION',
+    description: `Also known as Charlemagne's talisman, it is said to make its owner an emperor. In between the two gems is a piece of Jesus' cross and a hair of the Virgin Mary.`,
   },
   Fafnir: {
     inherits: 'Nuclear',
@@ -1223,7 +1251,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ailment Hunter',
     note: 'Only available after 1/12',
     img: '/personas/Fafnir.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An evil dragon of Norse lore, it was vanquished by the hero, Siegfried. According to the Völsunga saga, it was venomous, had legs like snakes and shook the ground with every step.',
   },
   Flauros: {
     special: true,
@@ -1245,7 +1274,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [15, 11, 13, 14, 11],
     trait: 'Gluttonmouth',
     img: '/personas/Flauros.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia. He appears as a leopard and can see the past and future. He can control fire and burn all his adversaries to death.',
   },
   Forneus: {
     inherits: 'Psy',
@@ -1269,7 +1299,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
     img: '/personas/Forneus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia, he appears as a great sea monster. Known as the great Marquis of Hell, he is skilled linguistically, and is a master of rhetoric.',
   },
   Fortuna: {
     inherits: 'Wind',
@@ -1290,7 +1321,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [23, 32, 29, 34, 27],
     trait: 'Wind Bloodline',
     img: '/personas/Fortuna.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The Roman goddess of luck, she spins the Wheel of Fortune. She is believed to have originally been a fertility goddess. Her Greek counterpart is Tyche.',
   },
   Futsunushi: {
     inherits: 'Physical',
@@ -1313,7 +1345,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Will of the Sword',
     max: true,
     img: '/personas/Futsunushi.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The Nihonshoki sword deity who pacified Ashihara-no-Nakatsukuni. His name comes from "futsu," the fashion in which things are cut, and "nushi," his nature as a god.',
   },
   'Fuu-Ki': {
     inherits: 'Wind',
@@ -1336,7 +1369,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L8 & 9',
     img: '/personas/Fuu-Ki.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four oni controlled by Fujiwara no Chikata, it sends hurricanes to blow away its enemies. Some say that Fuu-Ki is the original ninja.',
   },
   Gabriel: {
     inherits: 'Almighty',
@@ -1358,7 +1392,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [43, 51, 48, 54, 42],
     trait: 'Relentless',
     img: '/personas/Gabriel.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four major archangels. She is also the only female angel at this rank. Her name comes from the Sumerian word for "governor." She is the angel who told Mary of her pregnancy.',
   },
   Ganesha: {
     inherits: 'Ailment',
@@ -1382,7 +1417,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
     img: '/personas/Ganesha.webp',
-    description: 'DESCRIPTION',
+    description: `The Hindu elephant-headed god. He was originally created by Parvati in order to prevent anyone from watching her bathe. Shiva batted off his original head and replaced it with an elephant's head.`,
   },
   Garuda: {
     inherits: 'Wind',
@@ -1406,7 +1441,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 (after Palace 7)',
     img: '/personas/Garuda.webp',
-    description: 'DESCRIPTION',
+    description: `A divine bird-man in Hindu lore, he once fought the gods and received immortality in exchange for becoming Vishnu's carrier.`,
   },
   Genbu: {
     inherits: 'Ice',
@@ -1426,7 +1461,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [5, 6, 7, 6, 4],
     trait: 'Cold-Blooded',
     img: '/personas/Genbu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Ssu-Ling, celestial creatures of Chinese myth. It represents the direction north, the season of winter, and the element of water. Known to be a great warrior, it supports the Earth from below.',
   },
   Girimehkala: {
     inherits: 'Ailment',
@@ -1449,7 +1485,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L4, 6-8, 10',
     img: '/personas/Girimehkala.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A giant elephant monster of Sri Lankan myth, it is typically portrayed as being ridden by the Evil One, Mara. Whoever looks into its evil eye is said to be met with misfortune.',
   },
   Hanuman: {
     inherits: 'Physical',
@@ -1471,7 +1508,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 & 13 (after Palace 7)',
     img: '/personas/Hanuman.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A monkey god of Hindu descent. His father is Vayu, the wind god. Extremely nimble, he performed many heroic deeds in the Ramayana. He is powerful, can fly, and can change his shape into many forms.',
   },
   Hariti: {
     inherits: 'Electric',
@@ -1493,7 +1531,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [21, 32, 24, 23, 27],
     trait: 'Electric Bloodline',
     img: '/personas/Hariti.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Also known as Kishimojin, she once ate children, but stopped after Buddha changed her ways. She now eats pomegranates and is a goddess of parenting.',
   },
   Hastur: {
     inherits: 'Wind',
@@ -1515,7 +1554,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Mouth of Savoring',
     note: 'Only available after 1/12',
     img: '/personas/Hastur.webp',
-    description: 'DESCRIPTION',
+    description: `An evil god of the Cthulhu Mythos and one of the eldritch deities known as Great Old Ones. It wields great power over wind. Also called "The Unspeakable" and "The King in Yellow."`,
   },
   Hecatoncheires: {
     inherits: 'Physical',
@@ -1536,7 +1575,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 22, 27, 23, 26],
     trait: 'Gluttonmouth',
     img: '/personas/Hecatoncheires.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Giants born from Uranus and Gaia. The name means "those with a hundred arms." During the war of the Titans, Zeus freed them from the Underworld to help him obtain victory.',
   },
   'Hell Biker': {
     special: true,
@@ -1558,7 +1598,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [23, 24, 24, 30, 17],
     trait: 'Internal Hypnosis',
     img: '/personas/Hell_Biker.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A motorcyclist whose violent nature turned him into a demon. His anger with himself and the world causes him to lash out, that everyone else would suffer as well.',
   },
   'High Pixie': {
     inherits: 'Healing',
@@ -1581,7 +1622,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-3',
     img: '/personas/High_Pixie.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The leader of a swarm of pixies. Any pixie in a leadership role or with remarkable power is called by this name.',
   },
   'Hope Diamond': {
     rare: true,
@@ -1608,7 +1650,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9. 11-13 (after Palace 7)',
     img: '/personas/Hope_Diamond.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Unlike its name suggests, the Hope Diamond is a cursed jewel that brings ruin from one owner to the next. A few supposed victims include King Louis XVI and his wife, Marie Antoinette.',
   },
   Horus: {
     inherits: 'Almighty',
@@ -1629,7 +1672,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [30, 32, 29, 35, 22],
     trait: 'Potent Hypnosis',
     img: '/personas/Horus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An ancient god of Egypt whose eyes are the sun and moon. Revered by some as the chief god, he is often depicted as a hawk or a falcon.',
   },
   'Hua Po': {
     inherits: 'Fire',
@@ -1651,7 +1695,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-3',
     img: '/personas/Hua_Po.webp',
-    description: 'DESCRIPTION',
+    description: `A spirit of Chinese folklore who dwells in trees once used for hangings. She is smaller than a human and cannot speak, but her voice is said to be as clear and as beautiful as a bird's song.`,
   },
   Incubus: {
     inherits: 'Ailment',
@@ -1673,7 +1717,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L2, 3 & 6',
     img: '/personas/Incubus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A male demon of European lore in medieval times. They visit sleeping women and have sexual intercourse with them. The resulting children become witches or wizards.',
   },
   Inugami: {
     inherits: 'Fire',
@@ -1697,7 +1742,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L4, 6 & 7',
     img: '/personas/Inugami.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A dog spirit said to possess people in Japanese lore. Those possessed are in a state of "inu-tsuki" and lose consciousness. Onmyoji use Inugami as familiars.',
   },
   'Ippon-Datara': {
     inherits: 'Physical',
@@ -1720,7 +1766,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-4',
     img: '/personas/Ippon-Datara.webp',
-    description: 'DESCRIPTION',
+    description: `A one-eyed, one-legged monster said to live deep in the mountains of Kumano, Japan. It's believed to be the degraded blacksmith god, Ame no Me-Hitotsu no Kami.`,
   },
   Ishtar: {
     inherits: 'Healing',
@@ -1742,7 +1788,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Grace of Mother',
     max: true,
     img: '/personas/Ishtar.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The revered goddess of war and love in ancient Mesopotamia. She seduced many men to their doom. When Gilgamesh, the hero, spurned her, she murdered his best friend, Enkidu.',
   },
   Isis: {
     inherits: 'Healing',
@@ -1766,7 +1813,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
     img: '/personas/Isis.webp',
-    description: 'DESCRIPTION',
+    description: `Osiris's wife as well as his younger sister. Upon the death of her husband, she revived him with her incredible magic power. Isis is seen at many gravesites as the guardian goddess of the dead.`,
   },
   'Jack Frost': {
     inherits: 'Ice',
@@ -1788,7 +1835,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L4 & 6',
     img: '/personas/Jack_Frost.webp',
-    description: 'DESCRIPTION',
+    description: `A winter fairy of European descent. He leaves ice patterns on windows and nips people's noses. Though normally an innocent creature, he will freeze his victims to death if provoked.`,
   },
   "Jack-o'-Lantern": {
     inherits: 'Fire',
@@ -1809,7 +1856,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1',
     img: "/personas/Jack-o'-Lantern.webp",
-    description: 'DESCRIPTION',
+    description:
+      'A drunkard who tricked the Devil out of taking him to Hell. When refused entry to Heaven, he was forced to wander the earth with only an ember as a light.',
   },
   Jatayu: {
     inherits: 'Wind',
@@ -1831,7 +1879,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [31, 34, 29, 36, 30],
     trait: 'Wind Bloodline',
     img: '/personas/Jatayu.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The Hindu king of birds. In the Ramayana, he fought bravely against Ravana in an attempt to save Site, Rama's wife and the 7th avatar of Vishnu, but lost.",
   },
   Jikokuten: {
     inherits: 'Physical',
@@ -1852,7 +1901,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [18, 11, 16, 15, 13],
     trait: 'Internal Hypnosis',
     img: '/personas/Jikokuten.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Also known as Dhritarashtra, he is the protector of the East, and is one of the four Heavenly Kings of Buddhist origin. He helps maintain the security of the nation.',
   },
   Kaiwan: {
     inherits: 'Almighty',
@@ -1876,7 +1926,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L10-12',
     img: '/personas/Kaiwan.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A god in Assyrian legend, his name is interchangeable with Sakkut, another incarnation of the star-god, Saturn.',
   },
   Kali: {
     inherits: 'Fire',
@@ -1898,7 +1949,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [43, 41, 39, 39, 34],
     trait: 'Relentless',
     img: '/personas/Kali.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A goddess of death and destruction. She is said to be another face of Parvati. She is violent, wears a string of skulls, and carries bloody weapons, but she also blesses her followers.',
   },
   Kelpie: {
     inherits: 'Wind',
@@ -1920,7 +1972,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L3',
     img: '/personas/Kelpie.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A horse-like fairy of Celtic folklore that lives by the water. It drowns those who ride on it, but is a valuable mount if you can tame it.',
   },
   'Kikuri-Hime': {
     inherits: 'Healing',
@@ -1943,7 +1996,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L3-5 (before Palace 7) / L2 & 3 (after Palace 7)',
     img: '/personas/Kikuri-Hime.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The goddess of life in Shinto myth. She once mediated between Izanagi and Izanami during their confrontation in Yomi, the land of the dead.',
   },
   'Kin-Ki': {
     inherits: 'Physical',
@@ -1967,7 +2021,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
     img: '/personas/Kin-Ki.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four oni controlled by Fujiwara no Chikata, its body is so hard that no weapons can penetrate it.',
   },
   'King Frost': {
     inherits: 'Ice',
@@ -1990,7 +2045,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L8, 11, 12, 13 (after Palace 7)',
     img: '/personas/King_Frost.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The king of snow who rules over an infinite number of Jack Frosts. He has the power to freeze the entire world, but is unaware of it due to his naive personality.',
   },
   Kodama: {
     inherits: 'Ailment',
@@ -2013,7 +2069,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L1-3',
     img: '/personas/Kodama.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Japanese plant spirits born from trees that have lived for a 100 years. Cutting down one of these trees is said to cause misfortune.',
   },
   'Koh-i-Noor': {
     rare: true,
@@ -2040,7 +2097,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4, 6-8, 10-12',
     img: '/personas/Koh-i-Noor.webp',
-    description: 'DESCRIPTION',
+    description:
+      "Once called the world's largest diamond, it was cut when it came to the British royal family. It is said to bring bad luck to any man who wears it, so only the females have ever adorned it.",
   },
   Kohryu: {
     special: true,
@@ -2063,7 +2121,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Universal Law',
     max: true,
     img: '/personas/Kohryu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Known as the Gold Dragon, it reigns over the Ssu-Ling, celestial creatures of Chinese lore. It is located at the center of the four beasts.',
   },
   'Koppa Tengu': {
     inherits: 'Wind',
@@ -2085,7 +2144,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Koppa_Tengu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A type of tengu. Their spiritual power is weaker than other tengu, so they are much smaller. They are said to be the reincarnations of long-lived wolves.',
   },
   Koropokkuru: {
     inherits: 'Ice',
@@ -2109,7 +2169,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L2 & 3',
     img: '/personas/Koropokkuru.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Small human-like creatures, that have kind, calm personalities. Once coexisting with the Ainu people of Japan, there was a falling out at some point, and they disappeared.',
   },
   Koumokuten: {
     inherits: 'Physical',
@@ -2131,7 +2192,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [37, 29, 34, 29, 25],
     trait: 'Gluttonmouth',
     img: '/personas/Koumokuten.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Also known as Virupaksha, he is the protector of the West, and is one of the four Heavenly Kings of Buddhist origin. He keeps a close watch on the world with his sharp gaze.',
   },
   Kumbhanda: {
     inherits: 'Ailment',
@@ -2155,7 +2217,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (before Palace 7) / L4 & 5 (after Palace 7)',
     img: '/personas/Kumbhanda.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Buddhist demon said to drain human life energy. He has dark skin, stands 3 meters tall, and sometimes changes his shape to a gourd. Known to have once served Rudra, the god of storms.',
   },
   'Kurama Tengu': {
     inherits: 'Wind',
@@ -2177,7 +2240,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11 (after Palace 7)',
     img: '/personas/Kurama_Tengu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A type of tengu said to have lived on Mt. Kurama in Kyoto. The most powerful and well-known of the tengu, they have the power to fend off disease and bring good fortune.',
   },
   Kushinada: {
     inherits: 'Healing',
@@ -2201,7 +2265,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
     img: '/personas/Kushinada.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Japanese goddess. She governs fields and fertility. All of her sisters were sacrificed to Yamata-no-Orochi, but she was saved by Susano-o and became his wife.',
   },
   'Kushi Mitama': {
     inherits: 'Healing',
@@ -2221,7 +2286,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [7, 11, 9, 8, 8],
     trait: 'Gluttonmouth',
     img: '/personas/Kushi_Mitama.webp',
-    description: 'DESCRIPTION',
+    description:
+      "One of the four aspects of Shinto thought, it uses its power to bring good omens. It is said to aid in one's wisdom, observation, and skill, and can mend fractured paths.",
   },
   Lachesis: {
     inherits: 'Ice',
@@ -2242,7 +2308,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [18, 26, 22, 25, 21],
     trait: 'Internal Hypnosis',
     img: '/personas/Lachesis.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The middle sister of the three Moirae Sisters of Greek legend. She is the apportioner, measuring the thread which determines each person's lifespan.",
   },
   Lakshmi: {
     inherits: 'Healing',
@@ -2264,7 +2331,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Wealth of Lotus',
     max: true,
     img: '/personas/Lakshmi.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The Hindu goddess of beauty and good fortune, Vishnu's wife and Kama's mother. She is the goddess of love, believed to have been born from an ocean of milk.",
   },
   Lamia: {
     inherits: 'Fire',
@@ -2288,7 +2356,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L3, 5-7, 9-11',
     img: '/personas/Lamia.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A serpentine woman of Greek myth, she was once the queen of Libya. Zeus's jealous wife, Hera, killed her children, causing her to go mad and transform into a monster.",
   },
   'Leanan Sidhe': {
     inherits: 'Almighty',
@@ -2311,7 +2380,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L3-5',
     img: '/personas/Leanan_Sidhe.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A beautiful fairy of Irish lore that yearns for the love of a human man. She drains the life of her lovers in return for granting them artistic inspiration.',
   },
   Legion: {
     inherits: 'Psy',
@@ -2335,7 +2405,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L1-4',
     img: '/personas/Legion.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The spirit who said, "For we are many," in ancient scriptures. The name comes from the Roman military term for an army unit of 3,000 to 6,000 men.',
   },
   Lilim: {
     inherits: 'Ice',
@@ -2359,7 +2430,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L6-8, 10-12',
     img: '/personas/Lilim.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A demon who tempts sleeping men and attacks infants. She is the daughter of the demoness, Lilith. Like her mother, she drains men of their essence.',
   },
   Lilith: {
     inherits: 'Almighty',
@@ -2383,7 +2455,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Lilith.webp',
-    description: 'DESCRIPTION',
+    description:
+      "Said to have been Adam's first wife, she desired to be his equal and refused to obey him. She was cast out of Eden and became a demon of the night. She is the mother of the demoness, Lilim.",
   },
   Loa: {
     inherits: 'Curse',
@@ -2406,7 +2479,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Draining Mouth',
     note: 'Only available after 1/12',
     img: '/personas/Loa.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A general name for gods and spirits of Vodum. The gods that actually affect human lives are called by this name. Those with negative power are said to be able to kill with a fatal curse.',
   },
   Lucifer: {
     special: true,
@@ -2430,7 +2504,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Allure of Wisdom',
     max: true,
     img: '/personas/Lucifer.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A fallen Judeo-Christian angel, he lead a rebellion with an army of angels against God and lost. He waits in Hell for his chance to challenge God once more and strike him down.',
   },
   Macabre: {
     inherits: 'Curse',
