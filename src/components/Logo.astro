@@ -1,14 +1,14 @@
 ---
-interface Props {}
+import { getBaseUrl } from '@utils/baseUrl';
 ---
 
 <div class="logo">
   <div class="logo__background">
-    <img src="/logo_background.png" alt="logo background" />
+    <img src={getBaseUrl() + '/logo_background.png'} alt="logo background" />
   </div>
 
   <div class="logo__main">
-    <img src="/logo.webp" alt="logo" />
+    <img src={getBaseUrl() + '/logo.webp'} alt="logo" />
   </div>
 </div>
 
