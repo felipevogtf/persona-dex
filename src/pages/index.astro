@@ -2,8 +2,8 @@
 import type { Personas } from '@models/persona.model';
 import { PERSONAS_ROYAL_DATA } from '@data/personas.data';
 import Layout from '@layouts/Layout.astro';
-import { PersonaList } from '../components/PersonaList/PersonaList';
-
+import { PersonaList } from '@components/PersonaList/PersonaList';
+import Logo from '@components/Logo.astro';
 const data: Personas = PERSONAS_ROYAL_DATA;
 ---
 
@@ -11,7 +11,29 @@ const data: Personas = PERSONAS_ROYAL_DATA;
   title="PersonaDex"
   description="Unlock the secrets of the Persona world with our PersonaDex for Persona 5 Royal! Explore stats, weaknesses, strengths, and hidden powers of your favorite Personas. Dive into the mysterious universe of the game and uncover the hidden depths awaiting at every turn. Get ready to meet your allies and foes like never before!"
 >
+  <section class="main-title">
+    <Logo />
+    <h1>PersonaDex for Persona 5 Royal</h1>
+  </section>
   <main>
     <PersonaList data={data} client:visible />
   </main>
 </Layout>
+
+<style>
+  .main-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-title h1 {
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: bold;
+    text-wrap: pretty;
+    text-align: center;
+    filter: drop-shadow(3px 3px 0px black);
+  }
+</style>

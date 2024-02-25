@@ -30,17 +30,23 @@ function getProgress(valor: number) {
   return `width: ${newValue}%`;
 }
 
+function back() {
+  return getBaseUrl() ? getBaseUrl() : '/';
+}
+
 export function getStaticPaths() {
   const data: Personas = PERSONAS_ROYAL_DATA;
 
   return Object.keys(data).map(key => ({ params: { key: key } }));
 }
+
+console.log(getBaseUrl());
 ---
 
 <Layout title={key} description={data.description}>
   <section class="persona-detail">
     <div class="persona-detail__title">
-      <a href={getBaseUrl()}>
+      <a href={back()}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
           ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
           <path
@@ -85,10 +91,10 @@ export function getStaticPaths() {
         }
       </div>
     </div>
+    <div class="persona-detail__description">
+      <Description description={data.description} />
+    </div>
   </section>
-  <div>
-    <Description description={data.description} />
-  </div>
 
   <style>
     .persona-detail {
@@ -97,6 +103,7 @@ export function getStaticPaths() {
       grid-template-columns: 1fr 1fr;
 
       margin-top: 50px;
+      padding: 20px;
     }
 
     .persona-detail__title {
@@ -109,6 +116,11 @@ export function getStaticPaths() {
       flex-direction: row;
       align-items: center;
       gap: 20px;
+    }
+
+    .persona-detail__description {
+      padding-top: 30px;
+      grid-column: span 2;
     }
 
     .persona-detail__title a {
@@ -132,17 +144,16 @@ export function getStaticPaths() {
     }
 
     .persona-detail__weakness {
-      grid-row: 2;
       grid-column: 1 / span 2;
-      padding-bottom: 70px;
+      padding-bottom: 50px;
     }
 
     .persona-detail__box {
-      grid-row: 3;
-
       display: flex;
       flex-direction: column;
       gap: 20px;
+      grid-column: 1 / span 2;
+      padding-top: 20px;
     }
 
     .persona-detail__stat {
@@ -168,8 +179,7 @@ export function getStaticPaths() {
     }
 
     .persona-detail__img {
-      grid-column: 2 / span 1;
-      grid-row: 3;
+      grid-column: 1 / span 2;
       aspect-ratio: 1;
     }
 
@@ -196,7 +206,7 @@ export function getStaticPaths() {
       padding-left: 10px;
 
       font-weight: bold;
-      font-size: xx-large;
+      font-size: x-large;
     }
 
     .stat__progress {
@@ -228,6 +238,29 @@ export function getStaticPaths() {
 
     .description-container {
       grid-row: 5;
+    }
+
+    @media (width > 550px) {
+      .stat__name {
+        font-size: xx-large;
+      }
+    }
+
+    @media (width > 950px) {
+      .persona-detail__description {
+        padding-top: 0;
+      }
+
+      .persona-detail__box {
+        padding-top: 0;
+        grid-column: 1 / span 1;
+        grid-row: 3;
+      }
+
+      .persona-detail__img {
+        grid-column: 2 / span 1;
+        grid-row: 3;
+      }
     }
   </style>
 </Layout>
