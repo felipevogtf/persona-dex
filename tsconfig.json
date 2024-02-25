@@ -6,7 +6,8 @@
       "@models/*": ["models/*"],
       "@data/*": ["data/*"],
       "@layouts/*": ["layouts/*"],
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
