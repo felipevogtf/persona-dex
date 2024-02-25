@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import type { Personas } from '@models/persona.model';
 import './PersonaList.css';
+import { getBaseUrl } from '@utils/baseUrl';
 
 interface PersonaListProps {
   data: Personas;
@@ -25,6 +26,10 @@ export function PersonaList({ data }: PersonaListProps) {
   return (
     <>
       <div className="persona-search" onClick={handleContainerClick}>
+        <div className="persona-search__background">
+          <div className="persona-search__background2"></div>
+        </div>
+
         <input
           ref={inputRef}
           type="text"
@@ -40,21 +45,30 @@ export function PersonaList({ data }: PersonaListProps) {
           gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
           gap: '20px',
           marginTop: '20px',
+          padding: '0 20px',
         }}
       >
         {filteredKeys.map(key => (
           <a href={`./persona/${key}`} className="persona-card" key={key}>
-            <span className="persona-card__title">{key}</span>
-            <img
-              src={import.meta.env.BASE_URL + data[key].img}
-              alt={key}
-              loading="lazy"
-              style={{
-                maxWidth: '100%',
-                height: '200px',
-                objectFit: 'contain',
-              }}
-            />
+            <div className="persona-card__background">
+              <div className="persona-card__background2"></div>
+            </div>
+
+            <div className="persona-card__content">
+              <span className="persona-card__title">{key}</span>
+              <img
+                src={getBaseUrl() + data[key].img}
+                alt={key}
+                loading="lazy"
+                style={{
+                  boxsizing: 'border-box',
+                  maxWidth: '100%',
+                  height: '200px',
+                  objectFit: 'contain',
+                  aspectRatio: '1/1',
+                }}
+              />
+            </div>
           </a>
         ))}
       </section>

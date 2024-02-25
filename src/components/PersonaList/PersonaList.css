@@ -1,4 +1,52 @@
-.persona-card {
+.persona-search {
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+  height: 70px;
+  padding: 5px 20px;
+}
+
+.persona-search__background {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 5px;
+  transform: skew(-3deg, -0.3deg);
+  z-index: 0;
+}
+
+.persona-search__background2 {
+  background-color: black;
+  transform: skew(2deg, 0.2deg);
+  width: 100%;
+  height: 100%;
+}
+
+.persona-search input {
+  position: relative;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: none;
+  z-index: 1;
+  color: white;
+}
+
+.persona-search input:focus {
+  outline: none;
+}
+
+.persona-search:focus-within .persona-search__background,
+.persona-search:hover .persona-search__background {
+  background-color: red;
+}
+
+/* .persona-card {
   box-sizing: border-box;
 
   display: flex;
@@ -38,37 +86,135 @@
   filter: grayscale(0%) brightness(100%) hue-rotate(0deg);
 }
 
-.persona-search {
-  box-sizing: border-box;
-  position: relative;
-  padding: 0px 10px;
-  width: 100%;
-  height: 50px;
-  background: white;
-  border: solid 5px white;
-  border-radius: 15px;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
-  border-bottom-right-radius: 225px 15px;
-  border-bottom-left-radius: 15px 255px;
-  box-shadow: 1px 1px 0 5px black;
 
-  transition: box-shadow ease-in-out 200ms;
+
+.persona-card2 {
+  box-sizing: border-box;
+  background-color: white;
+
+  padding: 6px;
+  width: 100%;
+
+  transform: skew(5deg, 1deg);
 }
 
-.persona-search input {
-  border: none;
-  box-sizing: border-box;
+.test {
   width: 100%;
   height: 100%;
-  background: none;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: black;
+  transform: skew(-1deg, 0deg);
+  color: white;
+  text-wrap: pretty;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px;
 }
 
-.persona-search input:focus {
-  outline: none;
+.test img,
+span {
+  background: red;
+  transform: skew(-4deg, -1deg);
 }
 
-.persona-search:focus-within,
-.persona-search:hover {
-  box-shadow: 1px 1px 0 5px red;
+.persona-card2:hover .test span {
+  animation: not-deform-text 1s ease-in-out infinite alternate;
+}
+
+.persona-card2:hover .test img {
+  animation: not-deform 1s ease-in-out infinite alternate;
+}
+
+.persona-card2:hover {
+  animation: deform 1s ease-in-out infinite alternate;
+}
+.persona-card2:hover .test {
+  animation: deform2 1s ease-in-out infinite alternate;
+} */
+
+.persona-card {
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.persona-card__background {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 5px;
+  transform: skew(5deg, 1deg);
+  transition: background-color ease-in-out 200ms;
+  animation-fill-mode: forwards;
+  animation: deform 2000ms linear infinite alternate;
+  animation-play-state: paused;
+}
+
+.persona-card__background2 {
+  background-color: black;
+  transform: skew(-1deg, 0deg);
+  width: 100%;
+  height: 100%;
+  animation-fill-mode: forwards;
+  animation: deform2 1500ms linear infinite alternate;
+  animation-play-state: paused;
+}
+
+.persona-card__content {
+  box-sizing: border-box;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+
+  color: white;
+  font-weight: bold;
+  text-wrap: pretty;
+}
+
+.persona-card__content img {
+  filter: grayscale(100%) brightness(100%) hue-rotate(0deg);
+  transition: filter ease-in-out 200ms;
+}
+
+.persona-card:hover .persona-card__content img {
+  filter: grayscale(0%) brightness(100%) hue-rotate(0deg);
+}
+
+.persona-card:hover .persona-card__background {
+  background-color: red;
+  animation-play-state: running;
+}
+.persona-card:hover .persona-card__background2 {
+  animation-play-state: running;
+}
+
+@keyframes deform {
+  0% {
+    transform: skew(5deg, 1deg);
+  }
+  100% {
+    transform: skew(3deg, 1deg);
+  }
+}
+
+@keyframes deform2 {
+  0% {
+    transform: skew(-1deg, 0deg);
+  }
+  100% {
+    transform: skew(-2deg, -1deg);
+  }
 }
