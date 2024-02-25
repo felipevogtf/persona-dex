@@ -4,6 +4,7 @@ import { PERSONAS_ROYAL_DATA } from '@data/personas.data';
 import Layout from '@layouts/Layout.astro';
 import Description from '@components/Description.astro';
 import Weakness from '@components/Weakness.astro';
+import { getBaseUrl } from '@utils/baseUrl';
 
 const { key } = Astro.params;
 
@@ -55,7 +56,7 @@ export function getStaticPaths() {
     </div>
 
     <div class="persona-detail__img">
-      <img src={import.meta.env.BASE_URL + data.img} alt="" />
+      <img src={getBaseUrl() + data.img} alt="" />
     </div>
 
     <div class="persona-detail__box">
@@ -169,6 +170,7 @@ export function getStaticPaths() {
     .persona-detail__img {
       grid-column: 2 / span 1;
       grid-row: 3;
+      aspect-ratio: 1;
     }
 
     .persona-detail__img img {
@@ -176,7 +178,9 @@ export function getStaticPaths() {
       object-fit: contain;
       display: block;
       margin: auto;
-      max-height: 500px;
+      max-height: 100%;
+
+      filter: drop-shadow(7px 4px 0px white);
     }
 
     .stat__name {

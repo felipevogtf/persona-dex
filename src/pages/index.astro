@@ -7,7 +7,10 @@ import { PersonaList } from '../components/PersonaList/PersonaList';
 const data: Personas = PERSONAS_ROYAL_DATA;
 ---
 
-<Layout title="Persona Dex" description="Persona 5 royal dex">
+<Layout
+  title="PersonaDex"
+  description="Unlock the secrets of the Persona world with our PersonaDex for Persona 5 Royal! Explore stats, weaknesses, strengths, and hidden powers of your favorite Personas. Dive into the mysterious universe of the game and uncover the hidden depths awaiting at every turn. Get ready to meet your allies and foes like never before!"
+>
   <main>
     <PersonaList data={data} client:visible />
   </main>
