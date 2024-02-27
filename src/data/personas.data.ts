@@ -2528,7 +2528,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ailment Hunter',
     note: 'Only available after 1/12',
     img: '/personas/Macabre.webp',
-    description: 'DESCRIPTION',
+    description: `An evil spirit with the same name as the Death appearing in medieval oratorios. It is depicted as a skeleton with a black cloak and a sickle to reap humans. It dances the feared "Dance of Death".`,
   },
   Mada: {
     inherits: 'Fire',
@@ -2551,7 +2551,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Drunken Passion',
     max: true,
     img: '/personas/Mada.webp',
-    description: 'DESCRIPTION',
+    description: `A giant Hindu monster. Its mouth is so enormous it can swallow the Earth and the heavens in one bite. Its name means "He who Intoxicates".`,
   },
   Makami: {
     inherits: 'Nuclear',
@@ -2575,7 +2575,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Makami.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A divine wolf god in Japanese folklore, also written as "Oguchi-no-Magami." It is often drawn on prayer boards to prevent fires and thefts, but it is also feared as a human-eater.',
   },
   Mandrake: {
     inherits: 'Electric',
@@ -2596,7 +2597,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'All / L1',
     img: '/personas/Mandrake.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A magical plant whose roots look like a human. They are valued for their healing properties in potions, but the screams they let out when pulled from the ground will kill anyone who hears them.',
   },
   Mara: {
     inherits: 'Psy',
@@ -2620,7 +2622,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Mara.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Buddhist demon that represents the fear of death. Also known as "The Evil One," he sent his daughters to tempt Buddha during his meditations.',
   },
   Maria: {
     inherits: 'Healing',
@@ -2642,7 +2645,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ave Maria',
     max: true,
     img: '/personas/Maria.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The maternal figure of Christianity. Gabriel informed her that she was to be the mother of Jesus. Some sects revere her as Virgin Mary, but other denominations do not focus on her.',
   },
   Matador: {
     inherits: 'Psy',
@@ -2662,7 +2666,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [11, 13, 10, 16, 8],
     trait: 'Potent Hypnosis',
     img: '/personas/Matador.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A master sportsman who entertains the audience in exchange for his own life: one mistake can mean death. Some believe that matadors who die while performing remain in this world.',
   },
   Melchizedek: {
     inherits: 'Bless',
@@ -2686,7 +2691,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Melchizedek.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An angel of Gnosticism, governing over peace and righteousness. Though said to be the savior of the angels, he used to be a human, the king of Salem.',
   },
   Metatron: {
     special: true,
@@ -2709,7 +2715,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [54, 61, 60, 57, 42],
     trait: "Martyr's Gift",
     img: '/personas/Metatron.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The greatest angel in Judeo-Christian legend. He is known as the Voice of God or the Angel of Contracts. Despite his duty to maintain the world's order, he shows no mercy towards humanity.",
   },
   Michael: {
     special: true,
@@ -2731,7 +2738,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [57, 54, 55, 56, 46],
     trait: 'Potent Hypnosis',
     img: '/personas/Michael.webp',
-    description: 'DESCRIPTION',
+    description: `One of the four major archangels, he is at the top of the angelic hierarchy. He carries a long spear that can cut through anything, and his name means "one who is like God."`,
   },
   Mishaguji: {
     inherits: 'Ailment',
@@ -2752,7 +2759,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [32, 32, 32, 32, 35],
     trait: 'Ailment Hunter',
     img: '/personas/Mishaguji.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An indigenous god of the Shinano region from before the forces of Yamato occupied the land. Said to be born from the belief that divine spirits dwelled in rocks and stones',
   },
   Mitra: {
     inherits: 'Bless',
@@ -2773,7 +2781,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [19, 26, 19, 24, 18],
     trait: 'Blessed Bloodline',
     img: '/personas/Mitra.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An ancient Persian god of contracts, who was also revered as a sun god who brought harvests when he was introduced to the Zoroastrian religion.',
   },
   Mithras: {
     inherits: 'Nuclear',
@@ -2797,7 +2806,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L11 & 12',
     img: '/personas/Mithras.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A sun deity who was worshipped in the Roman Empire from the 1st to the 4th century AD. He was said to be reborn after death, and a festival was held on the winter solstice for him.',
   },
   Mokoi: {
     inherits: 'Ailment',
@@ -2820,7 +2830,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L1-4',
     img: '/personas/Mokoi.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Evil spirits of Murngin lore believed to be reborn shadows. They kidnap and eat children, and strike down any sorcerer who uses black magic.',
   },
   Moloch: {
     inherits: 'Fire',
@@ -2843,7 +2854,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Moloch.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A Canaanite god of fire. A bronze statue of a man with a bull's head stands at his alter. The statue was heated and sacrificial children were thrown inside.",
   },
   Mot: {
     inherits: 'Ailment',
@@ -2866,7 +2878,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Mot.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The Canaanite god of death. Every year he attempts to kill Baal, the god of fertility, only to see him raised from the dead with the help of Baal's sister, Anat.",
   },
   'Mother Harlot': {
     inherits: 'Ice',
@@ -2888,7 +2901,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Ghost Nest',
     max: true,
     img: '/personas/Mother_Harlot.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The fiend known as the "Whore of Babylon," riding a beast with seven heads and ten horns, she carries a golden cup of abominations and the filth of her acts.',
   },
   Mothman: {
     inherits: 'Electric',
@@ -2912,7 +2926,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L3, 4, 7, 8, 10',
     img: '/personas/Mothman.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A cryptid sighted during the 60s-80s in West Virginia. It has shining red eyes and is named for the fin-like appendages on its sides. It uses its keen sense for blood to track down the source and feed on it.',
   },
   Naga: {
     inherits: 'Electric',
@@ -2936,7 +2951,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L2, 3, 5-7, 9',
     img: '/personas/Naga.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Half-snake, half-human divine beings in Hindu lore, worshipped as bringers of rain. They live in the bottoms of lakes and seas, singing and dancing when they are not fighting.',
   },
   Narcissus: {
     inherits: 'Ailment',
@@ -2960,7 +2976,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7 & 8 (after Palace 7)',
     img: '/personas/Narcissus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A young man of Greek myth. He rejected the nymph Echo, who faded to a whisper out of despair. Cursed by Nemesis, he fell in love with his own reflection and wasted away.',
   },
   Nebiros: {
     inherits: 'Curse',
@@ -2982,7 +2999,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [45, 52, 44, 46, 42],
     trait: 'Psychic Bloodline',
     img: '/personas/Nebiros.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The general of Hell. He keeps watch over other demons. One of Hell's greatest necromancers, he can control souls and corpses.",
   },
   'Neko Shogun': {
     special: true,
@@ -3004,7 +3022,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [19, 20, 19, 21, 18],
     trait: 'Pinch Anchor',
     img: '/personas/Neko_Shogun.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A prophetic taoist god, originally known as Mao Shogun. Due to a linguistic error involving the Chinese word for "cat," his name was changed to Neko Shogun.',
   },
   Nekomata: {
     inherits: 'Ailment',
@@ -3027,7 +3046,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L2-4',
     img: '/personas/Nekomata.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Long-lived cats are said to become these malevolent cat demons. Their powers vary according to how long they have lived, ranging from shape-shifting to controlling the dead.',
   },
   'Nigi Mitama': {
     inherits: 'Healing',
@@ -3047,7 +3067,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [13, 15, 15, 16, 14],
     trait: 'Relief Bloodline',
     img: '/personas/Nigi_Mitama.webp',
-    description: 'DESCRIPTION',
+    description:
+      "One of the four aspects of Shinto thought, it works gently to help maintain a calm mind. It is said to aid in one's relations and sociability, and can lead one in a positive direction.",
   },
   Norn: {
     inherits: 'Almighty',
@@ -3071,7 +3092,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
     img: '/personas/Norn.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Goddesses of fate in Norse lore. They live below the roots of Yggdrasil and weave the threads of fate, which even the gods are bound by.',
   },
   Nue: {
     inherits: 'Curse',
@@ -3095,7 +3117,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L4',
     img: '/personas/Nue.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A creature of Japanese lore with a monkey's head, tiger's legs, and snake's tail. The Tale of Heike says it hid behind a dark cloud each night to attack the Emperor.",
   },
   Obariyon: {
     inherits: 'Physical',
@@ -3117,7 +3140,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L3, 5 & 6',
     img: '/personas/Obariyon.webp',
-    description: 'DESCRIPTION',
+    description: `A "piggyback monster" of Japan that jumps on the backs of those who who pass grassy paths. It is heavy and not easily removed, but will turn into gold coins if you can carry it back home.`,
   },
   Oberon: {
     inherits: 'Electric',
@@ -3142,7 +3165,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L13 (after Palace 7)',
     img: '/personas/Oberon.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The king of the fairies and Titania's husband. He is quite old, but due to a curse, his looks are that of a young boy. He often flirts with human women, ending in a scolding from his wife.",
   },
   Odin: {
     inherits: 'Electric',
@@ -3164,7 +3188,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Bargain Bolts',
     max: true,
     img: '/personas/Odin.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The father of all gods in Norse legend. He willingly sacrificed one eye to gain wisdom. In preparation for Ragnarok, he gathers the souls of fallen warriors to his hall, Valhalla.',
   },
   Okuninushi: {
     inherits: 'Psy',
@@ -3185,7 +3210,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [39, 35, 33, 32, 30],
     trait: 'Psychic Bloodline',
     img: '/personas/Okuninushi.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A Kunitsu deity of Japanese mythology that governs agriculture and medicine. He's said to have built the country of Izumo with Susano-o's daughter, Suseri-Hime.",
   },
   'Ongyo-Ki': {
     special: true,
@@ -3208,7 +3234,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: "Demon's Bite",
     max: true,
     img: '/personas/Ongyo-Ki.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four oni controlled by Fujiwara no Chikata. By eliminating its aura and preventing others from sensing its presence, it is able to surprise its enemies.',
   },
   Oni: {
     inherits: 'Physical',
@@ -3231,7 +3258,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L3-5, 8, 9',
     img: '/personas/Oni.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An evil monster from Japanese lore known for its hideous appearance and brute strength. They loot and plunder villages, massacring the townspeople with their iron clubs.',
   },
   Onmoraki: {
     inherits: 'Curse',
@@ -3253,7 +3281,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L3 & 4',
     img: '/personas/Onmoraki.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A monstrous, fire spitting, Japanese bird with a man's face. It is actually a corpse that was not given a proper memorial service. They appear before monks who neglect their duties.",
   },
   Orichalcum: {
     rare: true,
