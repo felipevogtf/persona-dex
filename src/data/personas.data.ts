@@ -3307,7 +3307,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [60, 60, 60, 60, 60],
     trait: 'Ultimate Vessel',
     img: '/personas/Orichalcum.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A metal mentioned in ancient Greek literature. Some accounts say it was merely brass, but other stories suggest it was, in fact, a legendary material.',
   },
   Orlov: {
     rare: true,
@@ -3334,7 +3335,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'Any (before Palace 7) / L1-5 (after Palace 7)',
     img: '/personas/Orlov.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A diamond stolen from a Hindu temple that is said to drive its owner to their death. It was cut into smaller pieces in an attempt to break the curse.',
   },
   Orobas: {
     inherits: 'Fire',
@@ -3357,7 +3359,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-3',
     img: '/personas/Orobas.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia. Known as the Prince of Hell, he appears as a horse and answers questions of the past, present, and future. He is faithful to his conjurer.',
   },
   Orthrus: {
     inherits: 'Fire',
@@ -3380,7 +3383,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L4, 5, 7-9',
     img: '/personas/Orthrus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The two-headed pet dog belonging to the giant, Geryon, in Greek myth. He guarded a herd of red oxen, but was killed by Hercules during one of his twelve labors.',
   },
   Ose: {
     inherits: 'Ailment',
@@ -3403,7 +3407,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L1-5, 9 (before Palace 7) / L1-4 (after Palace 7)',
     img: '/personas/Ose.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the 72 demons of the Goetia, he is known as the President of Hell. He can shapeshift from leopard to human and reveal the truth behind divine mysteries.',
   },
   'Pale Rider': {
     inherits: 'Curse',
@@ -3424,7 +3429,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [32, 37, 33, 40, 27],
     trait: 'Foul Stench',
     img: '/personas/Pale_Rider.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Four Horseman of the Apocalypse, he rides a pale horse and represents death. He has the power to destroy life.',
   },
   Parvati: {
     inherits: 'Psy',
@@ -3448,7 +3454,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L9, 11, 12 (after Palace 7)',
     img: '/personas/Parvati.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A beautiful Hindu goddess of love and one of Shiva's wives. Always by his side, she played a role in opening his third eye. She can turn into Durga or Kali when angered.",
   },
   Pazuzu: {
     inherits: 'Curse',
@@ -3469,7 +3476,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [29, 33, 27, 26, 27],
     trait: 'Cursed Bloodline',
     img: '/personas/Pazuzu.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The Babylonian lord of wind and scorching sands. He has the body of a man, a lion's head, the claws and wings of an eagle, and has a deadly poison. The diseases he spreads can only be cured with magic.",
   },
   Phoenix: {
     inherits: 'Nuclear',
@@ -3489,7 +3497,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [12, 15, 15, 17, 11],
     trait: 'Atomic Bloodline',
     img: '/personas/Phoenix.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The legendary bird of Chinese myth, said to appear only in times of peace. It is the ruler of all birds. When it dies, birds across the land chirp with sadness.',
   },
   Pisaca: {
     inherits: 'Curse',
@@ -3512,7 +3521,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L5-7, 9-11',
     img: '/personas/Pisaca.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A type of preta, or "hungry ghost," in Hindu lore that eats human corpses. It enters a human through the mouth and causes harm. Those who see one are said to die within nine months.',
   },
   Pixie: {
     inherits: 'Electric',
@@ -3533,7 +3543,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1 & 3',
     img: '/personas/Pixie.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Friendly fairies of the forest that tend to hide from humans. They like to play tricks on the Laz sic people. It is said they are the souls of dead, unbaptized children.',
   },
   Power: {
     inherits: 'Bless',
@@ -3557,7 +3568,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L1-5, 7 (before Palace 7) / L1-3 (after Palace 7)',
     img: '/personas/Power.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The sixth of the nine orders of angels. It is said that they were the first order to be created. Their duty is to protect human souls from demons.',
   },
   Principality: {
     inherits: 'Bless',
@@ -3578,7 +3590,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [17, 19, 18, 21, 19],
     trait: 'Blessed Bloodline',
     img: '/personas/Principality.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The seventh of the nine orders of angels. They guard cities and nations, and protect various religious figures.',
   },
   'Queen Mab': {
     inherits: 'Almighty',
@@ -3601,7 +3614,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L5, 7-9 (before Palace 7) / L3 & 4 (after Palace 7)',
     img: '/personas/Queen_Mab.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The fairy queen in Celtic myth. Often identified with Titania. She would offer mead mixed with her blood to her many consorts.',
   },
   "Queen's Necklace": {
     rare: true,
@@ -3628,7 +3642,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L1-5, 7-9',
     img: "/personas/Queen's_Necklace.webp",
-    description: 'DESCRIPTION',
+    description:
+      'The diamond necklace that Jeanne de la Motte swindled from jewelers in 1785 by claiming it was on behalf of the Queen of France, Marie Antoinette.',
   },
   Quetzalcoatl: {
     inherits: 'Wind',
@@ -3650,7 +3665,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [41, 46, 41, 43, 34],
     trait: 'Wind Bloodline',
     img: '/personas/Quetzalcoatl.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An Aztec deity known as the Feathered Serpent. He created humans with his own blood and taught them how to sustain themselves.',
   },
   'Raja Naga': {
     inherits: 'Electric',
@@ -3671,7 +3687,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [33, 37, 36, 35, 31],
     trait: 'Electric Bloodline',
     img: '/personas/Raja_Naga.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The king of the Naga, a half-man, half-snake tribe in Hindu lore. The dragon kings Nanda and Takshaka of Buddhist myth fall into this royal category.',
   },
   Rakshasa: {
     inherits: 'Physical',
@@ -3696,7 +3713,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L5, 7-9',
     img: '/personas/Rakshasa.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Hindu demon. He is an enemy of the gods and attacks humans to feed off of them. His hideous appearance strikes fear into those who see him. Rakshasa shape-shifts to deceive his enemies.',
   },
   Rangda: {
     inherits: 'Curse',
@@ -3719,7 +3737,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L11-13 (before Palace 7) / L5 (after Palace 7)',
     img: '/personas/Rangda.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A wicked witch of Balinese lore, she represents evil and is Barong's eternal rival. Even if defeated, she will come back to life, and their battle will have no end.",
   },
   Raphael: {
     inherits: 'Almighty',
@@ -3741,7 +3760,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [57, 45, 49, 55, 35],
     trait: 'Pinch Anchor',
     img: '/personas/Raphael.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four major archangels, his name means "healer." He recites the history of the fallen angels and the creation of Adam and Eve.',
   },
   'Red Rider': {
     inherits: 'Psy',
@@ -3762,7 +3782,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [26, 27, 25, 29, 23],
     trait: 'Ailment Hunter',
     img: '/personas/Red_Rider.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Four Horseman of the Apocalypse, he rides a red horse and carries a great sword. He has the power to destroy peace and make men slay one another.',
   },
   Regent: {
     rare: true,
@@ -3789,7 +3810,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus / Chemdah',
     floor: 'Any / L1-3, 5 & 6 / L1-4, 6 & 7',
     img: '/personas/Regent.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A bluish-tinged diamond that Napoleon Bonaparte had mounted to the pommel of his sword. It was named after the French Regent Philippe II, Duke of Orleans, who had purchased it in 1717.',
   },
   'Saki Mitama': {
     inherits: 'Healing',
@@ -3809,7 +3831,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [4, 6, 5, 6, 4],
     trait: 'Internal Hypnosis',
     img: '/personas/Saki_Mitama.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four aspects of Shinto thought, it brings great bounty from the hunt. It is said to aid in love, profit, and growth, and can create new paths.',
   },
   Sandalphon: {
     inherits: 'Bless',
@@ -3831,7 +3854,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Omen',
     max: true,
     img: '/personas/Sandalphon.webp',
-    description: 'DESCRIPTION',
+    description:
+      "Metatron's twin brother in Judeo-Christian lore, he is the master of heavenly songs. It is said that a human would take 500 years to walk the length of his body.",
   },
   Sandman: {
     inherits: 'Wind',
@@ -3855,7 +3879,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L1-3',
     img: '/personas/Sandman.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A fairy in German folklore who carries a bag of magical sand that puts humans to sleep when thrown into their eyes. If the victim resists, the Sandman will sit on their eyelids.',
   },
   Sarasvati: {
     inherits: 'Healing',
@@ -3879,7 +3904,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L7-9. 12 (after Palace 7)',
     img: '/personas/Sarasvati.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The Hindu goddess of rivers, and patron of speech, writing, learning, the arts, and sciences. Brahma is her husband.',
   },
   Satan: {
     inherits: 'Ice',
@@ -3902,7 +3928,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Cocytus',
     max: true,
     img: '/personas/Satan.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The Judeo-Christian prince of darkness, he is known for his role as the snake that tempted Adam and Eve in Eden. It is also said that he was sent by God to test man's piety.",
   },
   Satanael: {
     special: true,
@@ -3926,7 +3953,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Pagan Allure',
     note: 'Only available on NG+',
     img: '/personas/Satanael.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An archangel who is said to be the form of Satan before he fell from Heaven. The second son of God, he rebelled against Him for freedom and bestowed free will and chaos upon humanity.',
   },
   Scathach: {
     inherits: 'Wind',
@@ -3950,7 +3978,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Adyeshach',
     floor: 'L10-12',
     img: '/personas/Scathach.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A warrior woman of the Land of Shadows in Celtic lore. She taught the hero, Cu Chulainn, the art of war and gave him the spear, Gae Bolg.',
   },
   Seiryu: {
     inherits: 'Ice',
@@ -3971,7 +4000,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [38, 41, 43, 37, 34],
     trait: 'Relentless',
     img: '/personas/Seiryu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The noblest of the Ssu-Ling creatures of Chinese myth. It represents the direction east, the season of spring, and the element of wood. He dwells in a palace at the bottom of the ocean.',
   },
   Setanta: {
     inherits: 'Physical',
@@ -3991,7 +4021,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [19, 16, 18, 13, 16],
     trait: 'Retaliating Body',
     img: '/personas/Setanta.webp',
-    description: 'DESCRIPTION',
+    description: `A brave young man in Celtic myth. After defeating a fierce guard dog, he volunteered to take its place, earning him the nickname "Hound of Culann".`,
   },
   Seth: {
     special: true,
@@ -4012,7 +4042,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [32, 35, 30, 35, 28],
     trait: 'Potent Hypnosis',
     img: '/personas/Seth.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The Egyptian god of the desert, chaos, and evil. He murdered his brother, Osiris, and tried to become chief god, but he was castrated by Osiris's son, Horus.",
   },
   Shiisaa: {
     inherits: 'Electric',
@@ -4033,7 +4064,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [10, 11, 11, 11, 9],
     trait: 'Atomic Bloodline',
     img: '/personas/Shiisaa.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A holy beast said to protect houses from evil and bring good fortune. They look similar to Shinto guardian dogs, but are actually modeled after a lion. There are many stories about it in Ryukyu lore.',
   },
   'Shiki-Ouji': {
     inherits: 'Psy',
@@ -4057,7 +4089,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Shiki-Ouji.webp',
-    description: 'DESCRIPTION',
+    description:
+      'An exceptionally powerful shikigami. Only the most elite onmyoji are able to summon and bind it to paper. It can ward off disaster or cure illness, but its ordinary temperament is quite vicious.',
   },
   Shiva: {
     special: true,
@@ -4079,7 +4112,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [55, 54, 53, 53, 38],
     trait: 'Psychic Bloodline',
     img: '/personas/Shiva.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the major Hindu gods, he is known as the Destroyer but is also related to regeneration. His wife is Parvati.',
   },
   Siegfried: {
     inherits: 'Physical',
@@ -4100,7 +4134,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [61, 43, 55, 55, 45],
     trait: 'Retaliating Body',
     img: '/personas/Siegfried.webp',
-    description: 'DESCRIPTION',
+    description: `The German name of the hero in the epic poem, "The Nibelungenlied." The dragon Fafnir's blood made him invincible, but a single leaf on his back resulted in a weak spot.`,
   },
   Silky: {
     inherits: 'Healing',
@@ -4121,7 +4155,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Aiyatsbus',
     floor: 'L2, 3, 5 & 6',
     img: '/personas/Silky.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A fairy of England and Scotland. She carries out household chores while everyone sleeps and is a welcome spirit. It is said you can hear her silk skirt rustle as she works.',
   },
   Skadi: {
     inherits: 'Ice',
@@ -4144,7 +4179,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L12 & 13 (before Palace 7) / L5 (after Palace 7)',
     img: '/personas/Skadi.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Norse giantess called the "snow-shoe goddess" and the embodiment of winter. According to legend, all the gods will return to her at the end of Ragnarok.',
   },
   Slime: {
     inherits: 'Curse',
@@ -4166,7 +4202,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Qimranut / Aiyatsbus',
     floor: 'Any / L1, 2, 3, 6',
     img: '/personas/Slime.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A primitive monster with a viscous body. There are various theories as to its origin, but it is still under debate. Said to compulsively collect shiny objects.',
   },
   Sraosha: {
     special: true,
@@ -4188,7 +4225,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [47, 56, 45, 56, 43],
     trait: 'Blessed Bloodline',
     img: '/personas/Sraosha.webp',
-    description: 'DESCRIPTION',
+    description: `In Zoroastrian lore, Sraosha's duty is to listen to the cry of humans for Ahura Mazda. He is also known to descend after sunset to vanquish evil. His name literally means "observance."`,
   },
   'Stone of Scone': {
     rare: true,
@@ -4215,7 +4252,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L1-3, 5-7, 9-11',
     img: '/personas/Stone_of_Scone.webp',
-    description: 'DESCRIPTION',
+    description:
+      "Also known as the Stone of Destiny, it is a stone used in the coronations of Scotland's monarchs. Legends say the stone is linked to angels.",
   },
   Succubus: {
     inherits: 'Curse',
@@ -4261,7 +4299,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Chemdah',
     floor: 'L6 & 7',
     img: '/personas/Sudama.webp',
-    description: 'DESCRIPTION',
+    description:
+      "A female demon of European lore in medieval times. They visit sleeping men and have sexual intercourse with them. The victims don't wake up but may dream of the encounter.",
   },
   'Sui-Ki': {
     inherits: 'Ice',
@@ -4285,7 +4324,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L7-9',
     img: '/personas/Sui-Ki.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four oni controlled by Fujiwara no Chikata, it can cause floods with the swing of its arms. In the Taiheiki, Ki no Tomoo expelled the oni by reading a Japanese poem.',
   },
   Surt: {
     inherits: 'Fire',
@@ -4307,7 +4347,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [55, 54, 51, 50, 46],
     trait: 'Heated Bloodline',
     img: '/personas/Surt.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A fire giant in Norse lore. He rules the fire realm, Muspelheim, and brandishes a burning sword. At Ragnarok, he will set the world ablaze.',
   },
   Suzaku: {
     inherits: 'Nuclear',
@@ -4328,7 +4369,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [9, 12, 10, 15, 9],
     trait: 'Gluttonmouth',
     img: '/personas/Suzaku.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Ssu-Ling, celestial creatures in Chinese myth. It represents the direction south, the season of summer and the element fire.',
   },
   'Take-Minakata': {
     inherits: 'Electric',
@@ -4352,7 +4394,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L7-9',
     img: '/personas/Take-Minakata.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Japanese god of war, hunting and fertility. He fought Take-Mikazuchi for control of Japan and lost. He escaped to Suwa, but was prohibited to leave since.',
   },
   'Tam Lin': {
     special: true,
@@ -4374,7 +4417,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [21, 16, 18, 16, 17],
     trait: 'Gluttonmouth',
     img: '/personas/Tam_Lin.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A fae knight of the Seelie Court, said to protect the forest of Carterhaugh. After being kidnapped by the faeries at the tender age of 9, he lived much of his life among them.',
   },
   Thor: {
     inherits: 'Electric',
@@ -4397,7 +4441,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Thor.webp',
-    description: 'DESCRIPTION',
+    description:
+      'The Norse thunder god and son of Odin, Thor owns the power enhancing belt, Megingjard, and wields Mjolnir, a hammer that causes lightning to strike and returns to its owner after thrown.',
   },
   Thoth: {
     inherits: 'Nuclear',
@@ -4421,7 +4466,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Akzeriyyuth',
     floor: 'L6, 7, 9-11',
     img: '/personas/Thoth.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Egyptian moon god that takes the form of a baboon, he is the one who measures time. He gave Isis the power to resurrect Osiris after he was killed by the evil god Seth.',
   },
   Throne: {
     inherits: 'Bless',
@@ -4444,7 +4490,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Throne.webp',
-    description: 'DESCRIPTION',
+    description:
+      "The third of the nine orders of angels. They are the angels of dignity and justice who carry God's throne and govern thought. They are angels of knowledge.",
   },
   Thunderbird: {
     inherits: 'Electric',
@@ -4466,7 +4513,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [17, 24, 24, 26, 18],
     trait: 'Electric Bloodline',
     img: '/personas/Thunderbird.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A revered bird of Native American mythology said to live atop cloud-shrouded peaks. Resembles an eagle. Its wingbeats create thunderclaps, and some legends say its eyes can unleash lightning.',
   },
   Titania: {
     inherits: 'Nuclear',
@@ -4489,7 +4537,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L8, 9, 11-13 (after Palace 7)',
     img: '/personas/Titania.webp',
-    description: 'DESCRIPTION',
+    description: `The queen of the fairies and Oberon's wife. She is derived from the Roman goddess Diana. She was later immortalized in Shakespeare's play "A Midsummer Night's Dream."`,
   },
   Trumpeter: {
     special: true,
@@ -4511,7 +4559,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [33, 42, 40, 38, 31],
     trait: 'Relentless',
     img: '/personas/Trumpeter.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Angels that sound the trumpets at the time of the apocalypse. As each trumpet sounds, the more plagues and disasters will occur, turning the earth into a land of death and suffering.',
   },
   Unicorn: {
     inherits: 'Bless',
@@ -4535,7 +4584,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L1-4 (before Palace 7) / L1 & 2 (after Palace 7)',
     img: '/personas/Unicorn.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A legendary white horse with a single spiral horn. It can only be tamed by a pure maiden, and its horn supposedly has miraculous healing capablities.',
   },
   Uriel: {
     inherits: 'Almighty',
@@ -4556,7 +4606,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [50, 54, 49, 55, 42],
     trait: 'Mouth of Savoring',
     img: '/personas/Uriel.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the four major archangels. His name means "Flame of God," and he knows all the celestial phenomena. He is the first angel Satan met on earth.',
   },
   Valkyrie: {
     inherits: 'Physical',
@@ -4579,7 +4630,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Sheriruth',
     floor: 'L3-5, 7-9 (before Palace 7) / L2-4 (after Palace 7)',
     img: '/personas/Valkyrie.webp',
-    description: 'DESCRIPTION',
+    description: `"Choosers of the slain" in Norse lore. Armed with shining armor and swords, they look for brave warriors to take to Valhalla, so that they may fight in Ragnarok.`,
   },
   Vasuki: {
     special: true,
@@ -4601,7 +4652,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [42, 45, 44, 42, 38],
     trait: 'Foul Stench',
     img: '/personas/Vasuki.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A giant serpent of Hindu legend. It is said the gods and demons used him to churn the sea of milk. The strain caused him to exhale incredibly potent venom, but Shiva swallowed it.',
   },
   Vishnu: {
     inherits: 'Almighty',
@@ -4624,7 +4676,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: "Vahana's Wings",
     max: true,
     img: '/personas/Vishnu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the major Hindu gods, he is the preserver of the universe. Legends claim that he will make ten appearances across time and space to strike down evil and uphold justice.',
   },
   'Vohu Manah': {
     inherits: 'Almighty',
@@ -4646,7 +4699,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Positive Thoughts',
     max: true,
     img: '/personas/Vohu_Manah.webp',
-    description: 'DESCRIPTION',
+    description: `The second of Zoroastrianism's "divine sparks," Amesha Spenta, its name means "good thought." This holy entity is said to have given Zoroaster revelations from God.`,
   },
   'White Rider': {
     inherits: 'Curse',
@@ -4669,7 +4722,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [22, 21, 26, 27, 25],
     trait: 'Bloodstained Eyes',
     img: '/personas/White_Rider.webp',
-    description: 'DESCRIPTION',
+    description:
+      'One of the Four Horsemen of the Apocalypse, he rides a white horse with a bow in hand. A crown was granted to him, and he promises victory.',
   },
   Yaksini: {
     inherits: 'Ice',
@@ -4692,7 +4746,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: 'Kaitul',
     floor: 'L3-5, 7',
     img: '/personas/Yaksini.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A female demon in Hindu lore. Though originally a Dravidian fertility goddess, the spread of Hinduism changed perception of her to a demonic figure. Usually depicted as a nude, voluptuous, female.',
   },
   'Yamata-no-Orochi': {
     inherits: 'Ice',
@@ -4715,7 +4770,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     area: "Da'at",
     floor: 'All',
     img: '/personas/Yamata-no-Orochi.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A giant snake with eight heads that Susano-o defeated to save Kushinada-Hime. The legendary sword Ame-no-Murakumo-no-Tsurugi, also known as the "Sword of Kusanagi," emerged from its belly.',
   },
   Yatagarasu: {
     inherits: 'Fire',
@@ -4736,7 +4792,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [35, 41, 30, 40, 32],
     trait: 'Potent Hypnosis',
     img: '/personas/Yatagarasu.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A divine creature in Japanese lore. They are three-legged birds sent by Amaterasu to help humans. They are said to have helped emperor Jinmu claim victory.',
   },
   Yoshitsune: {
     special: true,
@@ -4758,7 +4815,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [63, 52, 50, 54, 49],
     trait: 'Retaliating Body',
     img: '/personas/Yoshitsune.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Japanese general of the Genpei War near the end of the Heian era and start of the Kamakura era. His bold ingenuity and ruthless skill with a blade are still praised in Japan today.',
   },
   Yurlungur: {
     inherits: 'Electric',
@@ -4779,7 +4837,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [26, 29, 30, 27, 24],
     trait: 'Mouth of Savoring',
     img: '/personas/Yurlungur.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A snake with a rainbow body from Murngin lore. He is a fertility deity who controls the weather and resides in a holy pond filled with rainbow-colored water.',
   },
   'Zaou-Gongen': {
     inherits: 'Fire',
@@ -4801,7 +4860,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Undying Fury',
     max: true,
     img: '/personas/Zaou-Gongen.webp',
-    description: 'DESCRIPTION',
+    description:
+      "Repeller of evil found at Kinpusen by En-no-Ozunu. Believed to be a fusion of Buddha, Guanyin, and Maitreya, he's a god who originated from Japan rather than the Buddhavacana.",
   },
   Zouchouten: {
     inherits: 'Electric',
@@ -4822,7 +4882,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     stats: [22, 19, 24, 18, 17],
     trait: 'Electric Bloodline',
     img: '/personas/Zouchouten.webp',
-    description: 'DESCRIPTION',
+    description:
+      'Also known as Virudhaka, he is the protector of the South, and is one of the four Heavenly Kings of Buddhist origin. He is the god of the five grains, and was once the chief of the gods.',
   },
   Ariadne: {
     inherits: 'Almighty',
@@ -4844,7 +4905,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Tag Team',
     dlc: true,
     img: '/personas/Ariadne.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. She is the daughter of Minos, the king of Crete. She helped Theseus defeat the Minotaur and gave him a ball of yarn so he could escape the labyrinth.',
   },
   'Ariadne Picaro': {
     inherits: 'Almighty',
@@ -4867,7 +4929,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Tag Team',
     dlc: true,
     img: '/personas/Ariadne_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. She is daughter of Minos. She helped Theseus defeat the Minotaur and gave him a ball of yarn so he could escape the labyrinth.`,
   },
   Asterius: {
     inherits: 'Almighty',
@@ -4889,7 +4951,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Frenzied Bull',
     dlc: true,
     img: '/personas/Asterius.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. Due to a curse on his mother Pasiphae, he was born a bull-headed monster. Locked away in the labyrinth as the Minotaur, he wielded a double-sided axe.',
   },
   'Asterius Picaro': {
     inherits: 'Almighty',
@@ -4912,7 +4975,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Frenzied Bull',
     dlc: true,
     img: '/personas/Asterius_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A Persona tuner picaro after becoming the Trickster's mask. Son of Pasiphae, he was born a bull-headed monster. Locked away in the labyrinth as the Minotaur, he wielded a double-sided axe.`,
   },
   Athena: {
     inherits: 'Almighty',
@@ -4935,7 +4998,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Grace of the Olive',
     dlc: true,
     img: '/personas/Athena.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A persona of another story. Daughter of Zeus, and a goddess of great martial ability. She fights to protect her land or her family, but never for sheer bloodlust. Her symbol is the olive tree',
   },
   'Athena Picaro': {
     inherits: 'Almighty',
@@ -4959,7 +5023,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Grace of the Olive',
     dlc: true,
     img: '/personas/Athena_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. Daughter of Zeus, and a goddess of great martial ability. She fights to protect her land or her family, but never for sheer bloodlust.`,
   },
   Izanagi: {
     inherits: 'Almighty',
@@ -4981,7 +5045,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'God Maker',
     dlc: true,
     img: '/personas/Izanagi.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. One of the ancient gods who existed before Japan was formed. He created the Oyashima from chaos, then gave birth to countless children and laid the foundation of soil and nature.',
   },
   'Izanagi Picaro': {
     inherits: 'Almighty',
@@ -5004,7 +5069,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'God Maker',
     dlc: true,
     img: '/personas/Izanagi_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. One of the ancient gods who existed before Japan was formed. He created the Oyashima from chaos, then gave birth to countless children.`,
   },
   'Izanagi-no-Okami': {
     special: true,
@@ -5028,7 +5093,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Country Maker',
     dlc: true,
     img: '/personas/Izanagi-no-Okami.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. A japanese god of creation, he begat the sky, ocean, and night, and 8 million other gods. Opposes his once-wife, the goddess Izanami, after an encounter in Yomotsu Hirasaka.',
   },
   'Izanagi-no-Okami Picaro': {
     special: true,
@@ -5053,7 +5119,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Country Maker',
     dlc: true,
     img: '/personas/Izanagi-no-Okami_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. A japanese god of creation, he begat the sky, ocean, and night, and 8 million other gods. Opposes his once-wife, the goddess Izanami.`,
   },
   Kaguya: {
     inherits: 'Almighty',
@@ -5075,7 +5141,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Inviolable Beauty',
     dlc: true,
     img: '/personas/Kaguya.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. A divine being born from a glowing bamboo shoot. Though many proposed to her, none could complete her strict tasks. She eventually returned to her home the moon.',
   },
   'Kaguya Picaro': {
     inherits: 'Almighty',
@@ -5098,7 +5165,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Inviolable Beauty',
     dlc: true,
     img: '/personas/Kaguya_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. She appeared from a glowing bamboo shoot. She received many proposals, but rejected them and returned to the moon.`,
   },
   'Magatsu-Izanagi': {
     inherits: 'Almighty',
@@ -5120,7 +5187,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hollow Jester',
     dlc: true,
     img: '/personas/Magatsu-Izanagi.webp',
-    description: 'DESCRIPTION',
+    description: `A Persona of another story. He's Izanagi's rival and looks just like him. Magatsu means "calamity." Unlike Izanagi, who founded the land and brought order, he leads all back into chaos.`,
   },
   'Magatsu-Izanagi Picaro': {
     inherits: 'Almighty',
@@ -5143,7 +5210,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hollow Jester',
     dlc: true,
     img: '/personas/Magatsu-Izanagi_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. He's Izanagi's rival. Magatsu means "calamity", so, unlike Izanagi who founded the land and brought order, he leads all back into chaos.`,
   },
   Messiah: {
     inherits: 'Almighty',
@@ -5166,7 +5233,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hallowed Spirit',
     dlc: true,
     img: '/personas/Messiah.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. He appears before Judgement Day to save the virtuous. He is a universal figure, appearing in myths around the world. Many stories involve his death and rebirth.',
   },
   'Messiah Picaro': {
     inherits: 'Almighty',
@@ -5190,7 +5258,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hallowed Spirit',
     dlc: true,
     img: '/personas/Messiah_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. He appears before Judgement Day to save the virtuous. He is a universal figure, appearing in myths around the world.`,
   },
   Orpheus: {
     inherits: 'Almighty',
@@ -5212,7 +5280,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. A poet skilled with the lyre. He tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface.',
   },
   'Orpheus F': {
     inherits: 'Almighty',
@@ -5234,7 +5303,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus_F.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. A poet skilled with the lyre. He tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface.',
   },
   'Orpheus F Picaro': {
     inherits: 'Almighty',
@@ -5257,7 +5327,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus_F_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. A Greek poet who tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface.`,
   },
   'Orpheus Picaro': {
     inherits: 'Almighty',
@@ -5280,7 +5350,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Circle of Sadness',
     dlc: true,
     img: '/personas/Orpheus_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. A Greek poet who tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface.`,
   },
   Raoul: {
     inherits: 'Almighty',
@@ -5303,7 +5373,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Hazy Presence',
     dlc: true,
     img: '/personas/Raoul.webp',
-    description: 'DESCRIPTION',
+    description: `Another alias of Maurice Leblanc's hero, Arsène Lupin. Infamous as a phantom thief, he was also known to be a man of many friends, lovers, and treasured allies`,
   },
   Thanatos: {
     inherits: 'Almighty',
@@ -5325,7 +5395,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Iron Heart',
     dlc: true,
     img: '/personas/Thanatos.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. The Greek god of death, he is the son of Nyx and the twin brother of Hypnos. He is known to provide mortals with a peaceful death.',
   },
   'Thanatos Picaro': {
     inherits: 'Almighty',
@@ -5348,7 +5419,7 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Iron Heart',
     dlc: true,
     img: '/personas/Thanatos_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona turned picaro after becoming the Trickster's mask. The Greek god of death, he is the son of Nyx and the twin brother of Hypnos. He is known to provide mortals with a peaceful death.`,
   },
   Tsukiyomi: {
     inherits: 'Almighty',
@@ -5370,7 +5441,8 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Bolstering Force',
     dlc: true,
     img: '/personas/Tsukiyomi.webp',
-    description: 'DESCRIPTION',
+    description:
+      'A Persona of another story. An important god born from the Japanese god Izanagi, he governs over the moon and the night. There are many theories behind this mysterious god.',
   },
   'Tsukiyomi Picaro': {
     inherits: 'Almighty',
@@ -5393,6 +5465,6 @@ export const PERSONAS_ROYAL_DATA: Personas = {
     trait: 'Bolstering Force',
     dlc: true,
     img: '/personas/Tsukiyomi_Picaro.webp',
-    description: 'DESCRIPTION',
+    description: `A persona tuner picaro after becoming the Trickster's mask. An important god born from the Japanese god Izanagi, he governs over the moon and the night. There are many theories behind this mysterious god.`,
   },
 };
