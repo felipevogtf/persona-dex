@@ -29,6 +29,8 @@ const { title, description } = Astro.props;
       class="webprogress"
       href="https://github.com/felipevogtf/persona-dex"
       target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Go to the GitHub repository of this website."
     >
       <div class="webprogress__background">
         <div class="webprogress__background2"></div>
@@ -69,7 +71,7 @@ const { title, description } = Astro.props;
   }
 
   body {
-    background: url('/background.png');
+    background: url('/background.webp');
     margin: 0;
     background-size: cover;
     background-repeat: repeat-y;

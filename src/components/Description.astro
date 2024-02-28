@@ -7,23 +7,26 @@ const { description } = Astro.props;
 ---
 
 <section class="container">
+  <div class="container__body">
+    <div class="container__body__content"><span>{description}</span></div>
+  </div>
+
   <div class="container__label">
     <div class="container__label__content">
       <span>Description</span>
     </div>
-  </div>
-  <div class="container__body">
-    <div class="container__body__content"><span>{description}</span></div>
   </div>
 </section>
 
 <style>
   .container {
     position: relative;
+    padding-top: 40px;
   }
 
   .container__label {
     margin-left: 20px;
+
     box-sizing: border-box;
     top: 0;
     left: 0;
@@ -58,11 +61,9 @@ const { description } = Astro.props;
   }
 
   .container__body {
-    position: absolute;
     box-sizing: border-box;
     background-color: white;
 
-    margin-top: 40px;
     padding: 5px;
     width: 100%;
 
@@ -89,5 +90,19 @@ const { description } = Astro.props;
     display: block;
     transform: skew(-7deg, 0deg);
     font-size: large;
+  }
+
+  @media (max-width: 768px) {
+    .container__body {
+      transform: skew(3deg, 0deg);
+    }
+    .container__body__content {
+      transform: skew(0deg, 0deg);
+      padding: 30px 30px;
+    }
+
+    .container__body__content span {
+      transform: skew(-3deg, 0deg);
+    }
   }
 </style>

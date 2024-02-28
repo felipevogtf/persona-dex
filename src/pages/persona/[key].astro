@@ -46,7 +46,7 @@ console.log(getBaseUrl());
 <Layout title={`${key} | PersonaDex`} description={data.description}>
   <section class="persona-detail">
     <div class="persona-detail__title">
-      <a href={back()}>
+      <a href={back()} aria-label="Return to the homepage">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
           ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
           <path
@@ -62,7 +62,12 @@ console.log(getBaseUrl());
     </div>
 
     <div class="persona-detail__img">
-      <img src={getBaseUrl() + data.img} alt="" />
+      <img
+        src={getBaseUrl() + data.img}
+        alt={`${key} persona image`}
+        width="500"
+        height="500"
+      />
     </div>
 
     <div class="persona-detail__box">
@@ -180,7 +185,6 @@ console.log(getBaseUrl());
 
     .persona-detail__img {
       grid-column: 1 / span 2;
-      aspect-ratio: 1;
     }
 
     .persona-detail__img img {
@@ -260,6 +264,12 @@ console.log(getBaseUrl());
       .persona-detail__img {
         grid-column: 2 / span 1;
         grid-row: 3;
+      }
+    }
+
+    @media (max-width: 804px) {
+      .persona-detail__title {
+        transform: skew(-5deg, 0deg);
       }
     }
   </style>

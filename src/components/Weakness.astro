@@ -28,6 +28,19 @@ const WEAK_IMGS: { [key: number]: string } = {
   8: '/weakness/Light_Icon.webp',
   9: '/weakness/Dark_Icon.webp',
 };
+
+const WEAK_NAMES: { [key: number]: string } = {
+  0: 'Melee',
+  1: 'Ranged',
+  2: 'Fire',
+  3: 'Ice',
+  4: 'Elec',
+  5: 'Wind',
+  6: 'Psy',
+  7: 'Nuclear',
+  8: 'Light',
+  9: 'Dark',
+};
 ---
 
 <section class="container">
@@ -36,7 +49,12 @@ const WEAK_IMGS: { [key: number]: string } = {
       weakness.map((weak, index) => (
         <div class="weak-container">
           <div class="weak">
-            <img src={getBaseUrl() + WEAK_IMGS[index]} alt="" />
+            <img
+              src={getBaseUrl() + WEAK_IMGS[index]}
+              alt={`Weakness to ${WEAK_NAMES[index]}`}
+              width="40"
+              height="30"
+            />
             <span class="weak__title">{WEAK_TEXTS[weak]}</span>
           </div>
         </div>
@@ -57,11 +75,9 @@ const WEAK_IMGS: { [key: number]: string } = {
 
   .container__body {
     padding-top: 10px;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     gap: 5px;
   }
 
@@ -88,8 +104,7 @@ const WEAK_IMGS: { [key: number]: string } = {
 
   .weak img {
     min-width: 40px;
-    max-width: 40px;
-    aspect-ratio: 4 / 3;
+    min-height: 30px;
   }
 
   .weak-container:nth-child(even) {
@@ -98,5 +113,29 @@ const WEAK_IMGS: { [key: number]: string } = {
 
   .weak-container:nth-child(2) {
     margin-right: 15px;
+  }
+
+  @media (max-width: 804px) {
+    .container {
+      transform: skew(-5deg, 0deg);
+      height: 100%;
+      padding: 10px 0px;
+    }
+
+    .container__body {
+      justify-content: center;
+    }
+
+    .weak-container {
+      transform: skew(5deg, 0deg);
+    }
+
+    .weak-container:nth-child(even) {
+      margin-top: 0;
+    }
+
+    .weak-container:nth-child(2) {
+      margin-right: 0;
+    }
   }
 </style>
