@@ -4,17 +4,27 @@ import { getBaseUrl } from '@utils/baseUrl';
 interface Props {
   title: string;
   description: string;
+  image?: string;
+  url?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, image, url } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="author" content="Felipe Vogt Fetis" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:url" content={url} />
+
     <link
       rel="icon"
       type="image/svg+xml"
@@ -23,7 +33,6 @@ const { title, description } = Astro.props;
     <link rel="sitemap" href={getBaseUrl() + '/sitemap-index.xml'} />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    <meta name="description" content={description} />
   </head>
   <body>
     <a

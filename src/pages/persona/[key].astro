@@ -43,7 +43,12 @@ export function getStaticPaths() {
 console.log(getBaseUrl());
 ---
 
-<Layout title={`${key} | PersonaDex`} description={data.description}>
+<Layout
+  title={`${key} | PersonaDex`}
+  description={data.description}
+  image={getBaseUrl() + data.img}
+  url={getBaseUrl() + `/persona/${key}`}
+>
   <section class="persona-detail">
     <div class="persona-detail__title">
       <a href={back()} aria-label="Return to the homepage">
