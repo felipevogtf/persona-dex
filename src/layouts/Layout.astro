@@ -6,9 +6,10 @@ interface Props {
   description: string;
   image?: string;
   url?: string;
+  type?: string;
 }
 
-const { title, description, image, url } = Astro.props;
+const { title, description, image, url, type } = Astro.props;
 ---
 
 <!doctype html>
@@ -20,6 +21,7 @@ const { title, description, image, url } = Astro.props;
     <meta name="author" content="Felipe Vogt Fetis" />
     <meta name="robots" content="index, follow" />
 
+    <meta property="og:type" content={type ?? 'website'} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta
